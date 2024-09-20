@@ -1,8 +1,8 @@
 # Awesome Semantic Shapes [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of Semantic Shapes resources.
+> A curated list of Semantic Shapes resources. Contributions welcome! Please, read the [Contribution Guidelines](CONTRIBUTING.md) first.
 
-Contributions welcome! Please, read the [Contribution Guidelines](CONTRIBUTING.md) first.
+Semantic shapes enables you to validate RDF graphs against a set of conditions. Semantic shapes can also be viewed as a description of the data graphs that do satisfy these conditions. Such descriptions may be used for a variety of purposes beside validation, including user interface building, code generation and data integration. Semantic shapes could be described in SHACL or ShEx languages.
 
 ## Contents
 
@@ -18,28 +18,27 @@ Contributions welcome! Please, read the [Contribution Guidelines](CONTRIBUTING.m
 - [Tutorials](#tutorials)
 - [Presentations](#presentations)
 - [Specifications](#specifications)
+- [Legend](#legend)
 
 ## SHACL Validators
 
-About this section. Optional. Keep this short and focus on the list.
-
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) -- Java, based on Jena, supports: SHACL Core, SHACL-SPARQL, SHACL rules
 - [Jena SHACL](https://github.com/apache/jena/) -- Java, Supports: SHACL Core, SHACL-SPARQL
 - [RDF4J SHACL Sail](https://github.com/eclipse-rdf4j/rdf4j) -- Java
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) -- Java, based on Jena, supports: SHACL Core, SHACL-SPARQL, SHACL rules
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) -- Java, fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot
 
 ## ShEx Validators
 
+- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) -- Java
 - [shexSpec/shex.js](https://github.com/shexjs/shex.js) -- JS, [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html)
 - [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) -- JS
 - [Validata](https://github.com/HW-SWeL/Validata) -- JS, [playground](http://hw-swel.github.io/Validata/), [playground](https://www.w3.org/2015/03/ShExValidata/)
-- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) -- Java
 
 ## Shapes Discovery Tools
 
-- [Shapes of You index](https://index.semanticscience.org/) -- SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes indexed from public git repositories.
 - [RDFminer](https://github.com/Wimmics/RDFminer) -- Web application to automatically discovering SHACL shapes representative of an RDF data graph, by Wimmics
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes)
+- [Shapes of You index](https://index.semanticscience.org/) -- SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes indexed from public git repositories.
 
 ## Shapes Collections
 
@@ -47,7 +46,8 @@ About this section. Optional. Keep this short and focus on the list.
 
 ## Shape Conversion Tools
 
-- [ShacShifter](https://github.com/AKSW/ShacShifter) -- "shape shifter" from SHACL to other formats (currently RDForms)
+- [ShacShifter](https://github.com/AKSW/ShacShifter) -- Python, ☠️, "shape shifter" from SHACL to other formats (currently RDForms)
+- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) -- TS, SHACL To JSON Schema translator
 
 ## Shape Generators
 
@@ -91,3 +91,7 @@ Data viewers/Editors based on shapes.
   - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) -- Final Community Group Report 8 October 2019
 - ShEx, Drafts
   - [P3330TM/D3 Draft Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/)
+
+## Legend
+☠️ -- each one denotes every 5 year from last update
+💰 -- denotes closed source commercial software
