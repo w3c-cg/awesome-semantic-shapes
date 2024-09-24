@@ -4,7 +4,7 @@
 > Please, read the [Contribution Guidelines](CONTRIBUTING.md) first.
 
 Semantic shapes enable you to validate RDF graphs against a set of conditions.
-Semantic shapes can also be viewed as a description of the data graphs that do satisfy these conditions.
+Semantic shapes can also be viewed as a description of data graphs that satisfy these conditions.
 Such descriptions may be used for a variety of purposes beside validation,
 including user interface building, code generation and data integration.
 Semantic shapes could be described in SHACL or ShEx languages.
@@ -28,10 +28,10 @@ Semantic shapes could be described in SHACL or ShEx languages.
 
 ## SHACL Validators
 
-- [Jena SHACL](https://github.com/apache/jena/) - Java, Supports: SHACL Core, SHACL-SPARQL.
+- [Jena SHACL](https://github.com/apache/jena/) - Java; Supports: SHACL Core, SHACL-SPARQL.
 - [RDF4J SHACL Sail](https://github.com/eclipse-rdf4j/rdf4j) - Java.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) - Java, based on Jena, supports: SHACL Core, SHACL-SPARQL, SHACL rules.
-- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) - Java, fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) - Java; based on Jena; supports: SHACL Core, SHACL-SPARQL, SHACL rules.
+- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) - Java; fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
 
 ## ShEx Validators
 
@@ -42,9 +42,9 @@ Semantic shapes could be described in SHACL or ShEx languages.
 
 ## Shapes Discovery Tools
 
-- [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discovering SHACL shapes representative of an RDF data graph, by Wimmics.
+- [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics.
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes)
-- [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes indexed from public git repositories.
+- [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories.
 
 ## Shapes Collections
 
@@ -53,11 +53,11 @@ Semantic shapes could be described in SHACL or ShEx languages.
 ## Shape Conversion Tools
 
 - [ShacShifter](https://github.com/AKSW/ShacShifter) - Python, ☠️, "shape shifter" from SHACL to other formats (currently RDForms).
-- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) - TS, SHACL To JSON Schema translator.
+- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) - TS, SHACL-to-JSON-Schema translator.
 
 ## Shape Generators
 
-- [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL 2 SHACL conversion rules.
+- [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL-to-SHACL conversion rules.
 
 ## Shape Editors, Visualizations
 
@@ -71,7 +71,7 @@ Data viewers/Editors based on shapes.
 
 ## IDE support
 
-- [Linked Data Extension](https://github.com/elsevierlabs-os/linked-data) - VS Code Extension for RDF files editing with embedded SHACL validator and SPARQL engine.
+- [Linked Data Extension](https://github.com/elsevierlabs-os/linked-data) - VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
 
 ## Book
 
@@ -106,5 +106,5 @@ Data viewers/Editors based on shapes.
   - [P3330TM/D3 Draft Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/)
 
 ## Legend
-☠️ -- Each one denotes every 5 year from last update.
-💰 -- Denotes closed source commercial software.
+☠️ — Each one denotes 5 years (e.g., ☠️☠️☠️ denotes 15 years) since last update.
+💰 — Denotes closed source commercial software.
