@@ -28,10 +28,11 @@ Semantic shapes could be described in SHACL or ShEx languages.
 
 ## SHACL Validators
 
-- [Jena SHACL](https://github.com/apache/jena/) - Java; Supports: SHACL Core, SHACL-SPARQL.
-- [RDF4J SHACL Sail](https://github.com/eclipse-rdf4j/rdf4j) - Java.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) - Java; based on Jena; supports: SHACL Core, SHACL-SPARQL, SHACL rules.
-- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) - Java; fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
+- [Jena SHACL](https://github.com/apache/jena/) ![GitHub last commit](https://img.shields.io/github/last-commit/apache/jena) `Apache-2.0` `Java` - Supports: SHACL Core, SHACL-SPARQL.
+- [RDF4J SHACL Sail](https://github.com/eclipse-rdf4j/rdf4j) ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j) `BSD-3-Clause` `Java`
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) ![GitHub last commit](https://img.shields.io/github/last-commit/TopQuadrant/shacl) `BSD-3-Clause` `Java` - Based on Jena; supports: SHACL Core, SHACL-SPARQL, SHACL rules.
+- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) ![GitHub last commit](https://img.shields.io/github/last-commit/SHACL-X/shacl-x) `BSD-3-Clause` `Java` - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
+- [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) `BSD-3-Clause` `Ruby` - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs.
 
 ## ShEx Validators
 
