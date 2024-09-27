@@ -5,9 +5,9 @@
 
 Semantic shapes enable you to validate RDF graphs against a set of conditions.
 Semantic shapes can also be viewed as a description of data graphs that satisfy these conditions.
-Such descriptions may be used for a variety of purposes beside validation,
-including user interface building, code generation and data integration.
-Semantic shapes could be described in SHACL or ShEx languages.
+Such descriptions may be used for a variety of purposes besides validation,
+including user interface building, code generation, and data integration.
+Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Contents
 
@@ -17,6 +17,7 @@ Semantic shapes could be described in SHACL or ShEx languages.
 - [Shapes Collections](#shapes-collections)
 - [Shape Conversion Tools](#shape-conversion-tools)
 - [Shape Generators](#shape-generators)
+- [Shape-based Query Generators](#shape-based-query-generators)
 - [Shape Editors, Visualizations](#shape-editors-visualizations)
 - [Declarative UIs](#declarative-uis)
 - [IDE support](#ide-support)
@@ -28,11 +29,11 @@ Semantic shapes could be described in SHACL or ShEx languages.
 
 ## SHACL Validators
 
-- [Jena SHACL](https://github.com/apache/jena/) ![GitHub last commit](https://img.shields.io/github/last-commit/apache/jena) `Apache-2.0` `Java` - Supports: SHACL Core, SHACL-SPARQL.
-- [RDF4J SHACL Sail](https://github.com/eclipse-rdf4j/rdf4j) ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j) `BSD-3-Clause` `Java`
+- [Apache Jena SHACL](https://github.com/apache/jena/) ![GitHub last commit](https://img.shields.io/github/last-commit/apache/jena) `Apache-2.0` `Java` - Supports: SHACL Core, SHACL-SPARQL.
+- [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j) ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j) - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; `BSD-3-Clause` `Java`.
+- [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) `BSD-3-Clause` `Ruby` - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs.
 - [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) ![GitHub last commit](https://img.shields.io/github/last-commit/TopQuadrant/shacl) `BSD-3-Clause` `Java` - Based on Jena; supports: SHACL Core, SHACL-SPARQL, SHACL rules.
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) ![GitHub last commit](https://img.shields.io/github/last-commit/SHACL-X/shacl-x) `BSD-3-Clause` `Java` - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
-- [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) `BSD-3-Clause` `Ruby` - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs.
 
 ## ShEx Validators
 
@@ -59,6 +60,10 @@ Semantic shapes could be described in SHACL or ShEx languages.
 ## Shape Generators
 
 - [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL-to-SHACL conversion rules.
+
+## Shape-based Query Generators
+
+- [@hydrofoil/shape-to-query](https://github.com/hypermedia-app/shape-to-query) [docs](https://shape-to-query.hypermedia.app/docs/#extension-spo-rule) - Generate SPARQL queries from SHACL Shapes.
 
 ## Shape Editors, Visualizations
 
