@@ -29,24 +29,26 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## SHACL Validators
 
-- [Apache Jena SHACL](https://github.com/apache/jena/) ![GitHub last commit](https://img.shields.io/github/last-commit/apache/jena) `Apache-2.0` `Java` - Supports: SHACL Core, SHACL-SPARQL.
-- [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j) ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j) - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; `BSD-3-Clause` `Java`.
-- [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) `BSD-3-Clause` `Ruby` - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) ![GitHub last commit](https://img.shields.io/github/last-commit/TopQuadrant/shacl) `BSD-3-Clause` `Java` - Based on Jena; supports: SHACL Core, SHACL-SPARQL, SHACL rules.
-- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) ![GitHub last commit](https://img.shields.io/github/last-commit/SHACL-X/shacl-x) `BSD-3-Clause` `Java` - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot.
+- [Apache Jena SHACL](https://jena.apache.org/documentation/shacl/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="top"> - Supports SHACL Core, SHACL-SPARQL; `Apache-2.0` `Java`.
+- [RDF4J SHACL Engine](https://rdf4j.org/documentation/programming/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j" align="top"> - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; `BSD-3-Clause` `Java`.
+- [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zazuko/rdf-validate-shacl" align="top"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; [playground](https://zazuko.github.io/shacl-playground); `MIT` `JavaScript`.
+- [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` `Ruby`.
+- [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="top"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; [playground](https://playground.rdf-ext.org/shacl/); `MIT` `JavaScript`.
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TopQuadrant/shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` `Java`.
+- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SHACL-X/shacl-x" align="top"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; `BSD-3-Clause` `Java`.
 
 ## ShEx Validators
 
-- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) - Java.
-- [shexSpec/shex.js](https://github.com/shexjs/shex.js) - [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html) - JS.
-- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) - JS.
-- [Validata](https://github.com/HW-SWeL/Validata) - [playground](http://hw-swel.github.io/Validata/) - [playground](https://www.w3.org/2015/03/ShExValidata/), JS.
+- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="top"> - `Apache-2.0` `Java`.
+- [shexSpec/shex.js](https://github.com/shexjs/shex.js)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="top"> - [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html) - `MIT` `JavaScript`.
+- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="top"> - :skull:  `MIT` `JavaScript`.
+- [Validata](https://github.com/HW-SWeL/Validata)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> - An intuitive, standalone web-based tool to help building RDF documents by validating against preset schemas written in the ShEx language; [playground](http://hw-swel.github.io/Validata/); [playground](https://www.w3.org/2015/03/ShExValidata/); `MIT` `JavaScript`.
 
 ## Shapes Discovery Tools
 
-- [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics.
-- [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes)
-- [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories.
+- [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` `Java`.
+- [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Example implementation of a discovery service for SHACL shapes/shape groups; `MIT` `PHP`.
+- [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` `Typescript, Python`.
 
 ## Shapes Collections
 
@@ -54,8 +56,8 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Shape Conversion Tools
 
-- [ShacShifter](https://github.com/AKSW/ShacShifter) - Python, ☠️, "shape shifter" from SHACL to other formats (currently RDForms).
-- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) - TS, SHACL-to-JSON-Schema translator.
+- [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="top"> - :skull: "shape shifter" from SHACL to other formats (currently RDForms); `GPL-3.0` `Python`.
+- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - TS, SHACL-to-JSON-Schema translator; `Typescript`.
 
 ## Shape Generators
 
@@ -63,17 +65,17 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Shape-based Query Generators
 
-- [@hydrofoil/shape-to-query](https://github.com/hypermedia-app/shape-to-query) [docs](https://shape-to-query.hypermedia.app/docs/#extension-spo-rule) - Generate SPARQL queries from SHACL Shapes.
+- [@hydrofoil/shape-to-query](https://shape-to-query.hypermedia.app/docs) - Generate SPARQL queries from SHACL Shapes; [playground](https://shape-to-query.hypermedia.app); `Typescript` `MIT`.
 
 ## Shape Editors, Visualizations
 
-- [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/shape-editor)
+- [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/allotrope-devops/-/wikis/shacl-shape-editor) - The Shape Editor supports editing of shacl and shaclc files; `Apache-2.0` `Java`.
 
 ## Declarative UIs
 
 Data viewers/Editors based on shapes.
 
-- [shaperone](https://forms.hypermedia.app) - SHACL Shapes Form generator.
+- [shaperone](https://forms.hypermedia.app) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [playground](https://forms.hypermedia.app/playground); `MIT` `Typescript`.
 
 ## IDE support
 
@@ -112,5 +114,6 @@ Data viewers/Editors based on shapes.
   - [P3330TM/D3 Draft Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/)
 
 ## Legend
-☠️ — Each one denotes 5 years (e.g., ☠️☠️☠️ denotes 15 years) since last update.
-💰 — Denotes closed source commercial software.
+:skull: — Each one denotes 5 years since last update (e.g., :skull: :skull: :skull: denotes 15 years).
+
+:moneybag: — Denotes closed source commercial software.
