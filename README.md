@@ -23,6 +23,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [IDE support](#ide-support)
 - [Books](#books)
 - [Tutorials](#tutorials)
+- [Talks](#talks)
 - [Presentations](#presentations)
 - [Specifications](#specifications)
 - [Legend](#legend)
@@ -79,15 +80,23 @@ Data viewers/Editors based on shapes.
 
 ## IDE support
 
-- [Linked Data Extension](https://github.com/elsevierlabs-os/linked-data) - VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
+- [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
+- [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for W3C standard SHACL via the Language Server Protocol.
+- [Mentor RDF for VS Code](https://marketplace.visualstudio.com/items?itemName=faubulous.mentor) - Code editing support for RDF, RDFS, OWL, SKOS, SHACL and SPARQL.
 
-## Book
+## Books
 
-- [Validating RDF Data (2018)](https://book.validatingrdf.com/)
+- [Validating RDF Data (2018)](https://book.validatingrdf.com)
 
 ## Tutorials
 
 - [Shapes applications and tools - ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/)
+
+## Talks
+
+- [The Many Shapes of SHACL by Holger Knublauch](https://www.youtube.com/watch?v=ccs-KhnWR1U) - LOTICO Talk, 18 Jun 2020.
+- [One Ontology, One Data Set, Multiple Shapes with SHACL by Tara Raafat](https://www.youtube.com/watch?v=apG5K3zc4V0) - Connected Data London, 2019.
+- [An Overview of SHACL Shapes Constraint Language](https://www.youtube.com/watch?v=_i3zTeMyRzU) - TopQuadrant, 2017.
 
 ## Presentations
 
