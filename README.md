@@ -21,7 +21,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [Shape Editors, Visualizations](#shape-editors-visualizations)
 - [Declarative UIs](#declarative-uis)
 - [IDE support](#ide-support)
-- [Book](#book)
+- [Books](#books)
 - [Tutorials](#tutorials)
 - [Presentations](#presentations)
 - [Specifications](#specifications)
@@ -40,7 +40,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 ## ShEx Validators
 
 - [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="top"> - `Apache-2.0` `Java`.
-- [shexSpec/shex.js](https://github.com/shexjs/shex.js)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="top"> - [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html) - `MIT` `JavaScript`.
+- [shexSpec/shex.js](https://github.com/shexjs/shex.js)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="top"> - [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html); `MIT` `JavaScript`.
 - [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="top"> - :skull:  `MIT` `JavaScript`.
 - [Validata](https://github.com/HW-SWeL/Validata)<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> - An intuitive, standalone web-based tool to help building RDF documents by validating against preset schemas written in the ShEx language; [playground](http://hw-swel.github.io/Validata/); [playground](https://www.w3.org/2015/03/ShExValidata/); `MIT` `JavaScript`.
 
