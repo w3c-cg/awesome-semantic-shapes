@@ -30,20 +30,20 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## SHACL Validators
 
-- [Apache Jena SHACL](https://jena.apache.org/documentation/shacl/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="middle"> - Supports SHACL Core, SHACL-SPARQL; `Apache-2.0` `Java`.
-- [RDF4J SHACL Engine](https://rdf4j.org/documentation/programming/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j" align="middle"> - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; `BSD-3-Clause` `Java`.
-- [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zazuko/rdf-validate-shacl" align="middle"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; [playground](https://zazuko.github.io/shacl-playground); `MIT` `JavaScript`.
+- [Apache Jena SHACL](https://jena.apache.org/documentation/shacl/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="bottom"> - Supports SHACL Core, SHACL-SPARQL; `Apache-2.0` `Java`.
+- [RDF4J SHACL Engine](https://rdf4j.org/documentation/programming/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eclipse-rdf4j/rdf4j" align="bottom"> - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; `BSD-3-Clause` `Java`.
+- [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zazuko/rdf-validate-shacl" align="bottom"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; [playground](https://zazuko.github.io/shacl-playground); `MIT` `JavaScript`.
 - [SHACL for Ruby](https://github.com/ruby-rdf/shacl/) ![GitHub last commit](https://img.shields.io/github/last-commit/ruby-rdf/shacl) - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` `Ruby`.
-- [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="middle"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; [playground](https://playground.rdf-ext.org/shacl/); `MIT` `JavaScript`.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TopQuadrant/shacl" align="middle"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` `Java`.
-- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SHACL-X/shacl-x" align="middle"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; `BSD-3-Clause` `Java`.
+- [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="bottom"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; [playground](https://playground.rdf-ext.org/shacl/); `MIT` `JavaScript`.
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TopQuadrant/shacl" align="bottom"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` `Java`.
+- [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SHACL-X/shacl-x" align="bottom"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; `BSD-3-Clause` `Java`.
 
 ## ShEx Validators
 
-- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="middle"> - Supports ShEx, ShExC; not supported semantic actions, EXTERNAL; `Apache-2.0` `Java`.
-- [shexSpec/shex.js](https://github.com/shexjs/shex.js) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="middle"> - JavaScript implementation of Shape Expressions; [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html); `MIT` `JavaScript`.
-- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="middle"> :skull: - A standalone Node module with a command line interface; `MIT` `JavaScript`.
-- [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="middle"> - An intuitive, standalone web-based tool to help building RDF documents by validating against preset schemas written in the ShEx language; [playground](http://hw-swel.github.io/Validata/); [playground](https://www.w3.org/2015/03/ShExValidata/); `MIT` `JavaScript`.
+- [Apache Jena ShEx](https://jena.apache.org/documentation/shex/index.html) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apache/jena" align="bottom"> - Supports ShEx, ShExC; not supported semantic actions, EXTERNAL; `Apache-2.0` `Java`.
+- [shexSpec/shex.js](https://github.com/shexjs/shex.js) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="bottom"> - JavaScript implementation of Shape Expressions; [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html); `MIT` `JavaScript`.
+- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="bottom"> :skull: - A standalone Node module with a command line interface; `MIT` `JavaScript`.
+- [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="bottom"> - An intuitive, standalone web-based tool to help building RDF documents by validating against preset schemas written in the ShEx language; [playground](http://hw-swel.github.io/Validata/); [playground](https://www.w3.org/2015/03/ShExValidata/); `MIT` `JavaScript`.
 
 ## Shapes Discovery Tools
 
@@ -57,8 +57,8 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Shape Conversion Tools
 
-- [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="middle"> :skull: - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` `Python`.
-- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="middle"> - TS, SHACL-to-JSON-Schema translator; `Typescript`.
+- [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="bottom"> :skull: - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` `Python`.
+- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="bottom"> - TS, SHACL-to-JSON-Schema translator; `Typescript`.
 
 ## Shape Generators
 
@@ -76,7 +76,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 Data viewers/Editors based on shapes.
 
-- [shaperone](https://forms.hypermedia.app) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hypermedia-app/shaperone" align="middle"> - SHACL Shapes Form generator; [playground](https://forms.hypermedia.app/playground); `MIT` `Typescript`.
+- [shaperone](https://forms.hypermedia.app) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hypermedia-app/shaperone" align="bottom"> - SHACL Shapes Form generator; [playground](https://forms.hypermedia.app/playground); `MIT` `Typescript`.
 
 ## IDE support
 
