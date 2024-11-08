@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          version: "lts/*"
+          node-version: "lts/*"
       - run: npm i -g awesome-lint
       - run: awesome-lint
