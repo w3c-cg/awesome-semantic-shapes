@@ -36,11 +36,13 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
   - [SHACL shapes validator](https://www.itb.ec.europa.eu/shacl/shacl/upload) - The EU Interoperability Test Bed (ITB) playgrounds based on TQ API; validate SHACL Shapes itself.
   - [Sparna SHACL playground](https://shacl-play.sparna.fr/play/) - Free online suite of tools from Sparna to work with SHACL; based on TQ API.
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SHACL-X/shacl-x" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/SHACL-X/shacl-x" align="top"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; [docs](https://shacl-x.github.io/docs/); `BSD-3-Clause` license; `Java`.
+- [shacl-js](https://github.com/TopQuadrant/shacl-js) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/TopQuadrant/shacl-js" align="top"> - SHACL API; `Apache` license; `JavaScript`. Recommends migration to `rdf-validate-shacl`. ☠️.
+  - [playground](https://shacl.org/playground/) - Browser-based testbed.
 - [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="NPM Version" src="https://img.shields.io/npm/v/rdf-validate-shacl" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/zazuko/rdf-validate-shacl" align="top"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; `MIT` license; `JavaScript`.
   - [playground](https://zazuko.github.io/shacl-playground) - Browser-based testbed.
 - [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="NPM Version" src="https://img.shields.io/npm/v/shacl-engine" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="top"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; `MIT` license; `JavaScript`.
   - [playground](https://playground.rdf-ext.org/shacl/) - Browser-based testbed.
-  - [rdf-ext-cli](https://github.com/rdf-ext/rdf-ext-cli) - command line tool for validation. Data and shapes can be given as file, URL, or SPARQL endpoint + query.
+  - [rdf-ext-cli](https://github.com/rdf-ext/rdf-ext-cli) - Command line tool for validation. Data and shapes can be given as file, URL, or SPARQL endpoint + query.
 - [SHACL for Ruby](https://github.com/ruby-rdf/shacl) <img alt="Gem Version" src="https://img.shields.io/gem/v/shacl" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ruby-rdf/shacl" align="top"> - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` license; `Ruby`.
 - [maplib](https://github.com/DataTreehouse/maplib) <img src="https://img.shields.io/github/v/tag/DataTreehouse/maplib" align="top"> <img src="https://img.shields.io/github/last-commit/DataTreehouse/maplib" align="top"> - High-performance RDF knowledge graph construction, SHACL validation and SPARQL-based enrichment. `Apache-2.0` license. `Rust, Python`. But SHACL is not open source yet: [lib/shacl/src/lib.rs](https://github.com/DataTreehouse/maplib/blob/main/lib/shacl/src/lib.rs) says `unimplemented!("Contact Data Treehouse to try")`
 
@@ -97,11 +99,11 @@ Data viewers/Editors based on shapes.
 
 ## Books
 
-- [Validating RDF Data (2018)](https://book.validatingrdf.com) - The SHACL and ShEx book
+- [Validating RDF Data (2018)](https://book.validatingrdf.com) - The SHACL and ShEx book.
 
 ## Tutorials
 
-- [Shapes applications and tools: ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/) - Main tutorial
+- [Shapes applications and tools: ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/) - Main tutorial.
 
 ## Talks and Presentations
 
@@ -131,11 +133,11 @@ Data viewers/Editors based on shapes.
   - [DASH Data Shapes](https://www.datashapes.org/) - Platform-independent extensions of SHACL for common tasks. Stuff that could become an official standard in the future.
 
 - ShEx
-  - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report: 8 October 2019
-  - [ShEx Primer](https://shexspec.github.io/primer/index.html) - Draft Community Group Report: 7 December 2022
-  - [ShEx Text Suite](https://github.com/shexSpec/shexTest) and [website](https://shexspec.github.io/shexTest/) - Version `next@1.0.2`: last release 5 October 2018
-  - [Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/) - IEEE Computer Society P3330/D3: Draft 9 October 2024. Next-version spec with `EXTENDS` keyword
-  - [ShEx Primer](https://shex.io/primer-next/) - Primer with `EXTENDS` keyword: Draft Community Group Report 25 May 2022
+  - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
+  - [ShEx Primer](https://shexspec.github.io/primer/index.html) - Draft Community Group Report, 7 December 2022.
+  - [ShEx Text Suite](https://github.com/shexSpec/shexTest) and [website](https://shexspec.github.io/shexTest/) - Version `next@1.0.2`, last release 5 October 2018.
+  - [Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/) - IEEE Computer Society P3330/D3, Draft 9 October 2024. Next-version spec with `EXTENDS` keyword.
+  - [ShEx Primer](https://shex.io/primer-next/) - Primer with `EXTENDS` keyword, Draft Community Group Report 25 May 2022.
 
 ## Legend
 - ☠️ : Each one denotes 5 years since last update (e.g., ☠️☠️☠️ denotes 15 years).
