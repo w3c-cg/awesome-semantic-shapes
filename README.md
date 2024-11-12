@@ -23,36 +23,38 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [IDE support](#ide-support)
 - [Books](#books)
 - [Tutorials](#tutorials)
-- [Talks](#talks)
-- [Presentations](#presentations)
+- [Talks and Presentations](#talks-and-presentations)
 - [Specifications](#specifications)
 - [Legend](#legend)
 
 ## SHACL Validators
 
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
-- [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j/tree/main/core/sail/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.eclipse.rdf4j/rdf4j-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.eclipse.rdf4j/rdf4j-shacl" align="top"> - Supports SHACL Core (without some property paths), SHACL-SPARQL, incremental validation; [docs](https://rdf4j.org/documentation/programming/shacl/); `BSD-3-Clause` license; `Java`.
-- [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="NPM Version" src="https://img.shields.io/npm/v/rdf-validate-shacl" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/zazuko/rdf-validate-shacl" align="top"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; `MIT` license; `JavaScript`.
-  - [playground](https://zazuko.github.io/shacl-playground) - Browser-based testbed.
-- [SHACL for Ruby](https://github.com/ruby-rdf/shacl) <img alt="Gem Version" src="https://img.shields.io/gem/v/shacl" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ruby-rdf/shacl" align="top"> - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` license; `Ruby`.
-- [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="NPM Version" src="https://img.shields.io/npm/v/shacl-engine" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="top"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; `MIT` license; `JavaScript`.
-  - [playground](https://playground.rdf-ext.org/shacl/) - Browser-based testbed.
-  - [rdf-ext-cli](https://github.com/rdf-ext/rdf-ext-cli) - The command line tool provides a validation feature based on shacl-engine. Data and shapes can be given as file, URL, or SPARQL endpoint + query.
+- [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j/tree/main/core/sail/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.eclipse.rdf4j/rdf4j-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.eclipse.rdf4j/rdf4j-shacl" align="top"> - Supports SHACL Core (without some property paths, see [5.0.3 improvements](https://github.com/Sveino/Inst4CIM-KG/issues/95#issuecomment-2437819932)), SHACL-SPARQL, incremental validation; [docs](https://rdf4j.org/documentation/programming/shacl/); `BSD-3-Clause` license; `Java`.
 - [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
   - [RDF validator](https://www.itb.ec.europa.eu/shacl/any/upload) - The EU Interoperability Test Bed (ITB) playground based on TQ API; validate any RDF with SHACL Shapes.
   - [SHACL shapes validator](https://www.itb.ec.europa.eu/shacl/shacl/upload) - The EU Interoperability Test Bed (ITB) playgrounds based on TQ API; validate SHACL Shapes itself.
   - [Sparna SHACL playground](https://shacl-play.sparna.fr/play/) - Free online suite of tools from Sparna to work with SHACL; based on TQ API.
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SHACL-X/shacl-x" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/SHACL-X/shacl-x" align="top"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; [docs](https://shacl-x.github.io/docs/); `BSD-3-Clause` license; `Java`.
+- [shacl-js](https://github.com/TopQuadrant/shacl-js) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/TopQuadrant/shacl-js" align="top"> - SHACL API; `Apache` license; `JavaScript`. Recommends migration to `rdf-validate-shacl`. ☠️.
+  - [playground](https://shacl.org/playground/) - Browser-based testbed.
+- [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="NPM Version" src="https://img.shields.io/npm/v/rdf-validate-shacl" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/zazuko/rdf-validate-shacl" align="top"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; `MIT` license; `JavaScript`.
+  - [playground](https://zazuko.github.io/shacl-playground) - Browser-based testbed.
+- [shacl-engine](https://github.com/rdf-ext/shacl-engine) <img alt="NPM Version" src="https://img.shields.io/npm/v/shacl-engine" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rdf-ext/shacl-engine" align="top"> - Supports SHACL Core, SHACL-SPARQL; A fast engine for data provided as [RDF/JS](http://rdf.js.org/data-model-spec/) objects; `MIT` license; `JavaScript`.
+  - [playground](https://playground.rdf-ext.org/shacl/) - Browser-based testbed.
+  - [rdf-ext-cli](https://github.com/rdf-ext/rdf-ext-cli) - Command line tool for validation. Data and shapes can be given as file, URL, or SPARQL endpoint + query.
+- [SHACL for Ruby](https://github.com/ruby-rdf/shacl) <img alt="Gem Version" src="https://img.shields.io/gem/v/shacl" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ruby-rdf/shacl" align="top"> - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` license; `Ruby`.
+- [maplib](https://github.com/DataTreehouse/maplib) <img src="https://img.shields.io/github/v/tag/DataTreehouse/maplib" align="top"> <img src="https://img.shields.io/github/last-commit/DataTreehouse/maplib" align="top"> - High-performance RDF knowledge graph construction, SHACL validation and SPARQL-based enrichment. `Apache-2.0` license. `Rust, Python`. But SHACL is not open source yet: [lib/shacl/src/lib.rs](https://github.com/DataTreehouse/maplib/blob/main/lib/shacl/src/lib.rs) says `unimplemented!("Contact Data Treehouse to try")`
 
 ## ShEx Validators
 
 - [Apache Jena ShEx](https://github.com/apache/jena/tree/main/jena-shex) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shex" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shex" align="top"> - Supports ShEx, ShExC; not supported semantic actions, EXTERNAL; [docs](https://jena.apache.org/documentation/shex/); `Apache-2.0` license; `Java`.
 - [shexSpec/shex.js](https://github.com/shexjs/shex.js) <img alt="NPM Version" src="https://img.shields.io/npm/v/shex" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="top"> - JavaScript implementation of Shape Expressions; `MIT` license; `JavaScript`.
   - [playground](http://rawgit.com/shexSpec/shex.js/master/doc/shex-simple.html) - Browser-based testbed.
-- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="top"> ☠️ - A standalone Node module with a command line interface; `MIT` license; `JavaScript`.
-- [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> - An intuitive, standalone web-based tool to help building RDF documents by validating against preset schemas written in the ShEx language; `MIT` license; `JavaScript`.
-  - [playground1](http://hw-swel.github.io/Validata/)
-  - [playground2](https://www.w3.org/2015/03/ShExValidata/)
+- [ShEx-validator](https://github.com/HW-SWeL/ShEx-validator) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/ShEx-validator" align="top"> ☠️ - Standalone Node module with a command line interface; `MIT` license; `JavaScript`. Built on top of [ShExDemo](https://github.com/ericprud/ShExDemo)
+  - [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> ☠️ - Web-based UI to validate RDF against ShEx schemas; `MIT` license; `JavaScript`.
+  - [playground1](http://hw-swel.github.io/Validata/) (HW-SWeL)
+  - [playground2](https://www.w3.org/2015/03/ShExValidata/) (W3C)
 
 ## Shapes Discovery Tools
 
@@ -67,7 +69,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 ## Shape Conversion Tools
 
 - [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="top"> ☠️ - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` license; `Python`.
-- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="NPM Version" src="https://img.shields.io/npm/v/@comake/shacl-to-json-schema" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - TS, SHACL-to-JSON-Schema translator; `Typescript`.
+- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="NPM Version" src="https://img.shields.io/npm/v/@comake/shacl-to-json-schema" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - SHACL-to-JSON-Schema translator; `Typescript`.
 
 ## Shape Generators
 
@@ -97,31 +99,29 @@ Data viewers/Editors based on shapes.
 
 ## Books
 
-- [Validating RDF Data (2018)](https://book.validatingrdf.com)
+- [Validating RDF Data (2018)](https://book.validatingrdf.com) - The SHACL and ShEx book.
 
 ## Tutorials
 
-- [Shapes applications and tools - ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/)
+- [Shapes applications and tools: ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/) - Main tutorial.
 
-## Talks
+## Talks and Presentations
 
 - [The Many Shapes of SHACL by Holger Knublauch](https://www.youtube.com/watch?v=ccs-KhnWR1U) - LOTICO Talk, 18 Jun 2020.
 - [One Ontology, One Data Set, Multiple Shapes with SHACL by Tara Raafat](https://www.youtube.com/watch?v=apG5K3zc4V0) - Connected Data London, 2019.
-- [An Overview of SHACL Shapes Constraint Language - Part 2](https://www.youtube.com/watch?v=TSDplfqw8rM) - TopQuadrant, 2017.
+- [An Overview of SHACL Shapes Constraint Language: Part 2](https://www.youtube.com/watch?v=TSDplfqw8rM) - TopQuadrant, 2017.
 - [An Overview of SHACL Shapes Constraint Language](https://www.youtube.com/watch?v=_i3zTeMyRzU) - TopQuadrant, 2017.
-
-## Presentations
 
 ## Specifications
 
-- SHACL, W3C Recommendations & Notes
+- SHACL W3C Recommendations & Notes
   - [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) - W3C Recommendation, 20 July 2017.
   - [SHACL Advanced Features](https://www.w3.org/TR/shacl-af/) - W3C Working Group Note, 08 June 2017.
   - [SHACL JavaScript Extensions](https://www.w3.org/TR/shacl-js/) - W3C Working Group Note, 08 June 2017.
   - [SHACL Test Suite and Implementation Report](https://w3c.github.io/data-shapes/data-shapes-test-suite/) - W3C Document 01 July 2019.
   - [SHACL Use Cases and Requirements](https://www.w3.org/TR/shacl-ucr/) - W3C Working Group Note 20 July 2017.
 
-- SHACL, Community Group Latest Drafts & Notes
+- SHACL Community Group Latest Drafts & Notes
   - [SHACL 1.2 Core](https://w3c.github.io/shacl/shacl-core/)
   - [SHACL 1.2 SPARQL Extensions](https://w3c.github.io/shacl/shacl-sparql/)
   - [SHACL Advanced Features 1.1](https://w3c.github.io/shacl/shacl-af/)
@@ -133,12 +133,12 @@ Data viewers/Editors based on shapes.
   - [DASH Data Shapes](https://www.datashapes.org/) - Platform-independent extensions of SHACL for common tasks. Stuff that could become an official standard in the future.
 
 - ShEx
-  - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report 8 October 2019.
-
-- ShEx, Drafts
-  - [P3330TM/D3 Draft Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/)
+  - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
+  - [ShEx Primer](https://shexspec.github.io/primer/index.html) - Draft Community Group Report, 7 December 2022.
+  - [ShEx Text Suite](https://github.com/shexSpec/shexTest) and [website](https://shexspec.github.io/shexTest/) - Version `next@1.0.2`, last release 5 October 2018.
+  - [Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/) - IEEE Computer Society P3330/D3, Draft 9 October 2024. Next-version spec with `EXTENDS` keyword.
+  - [ShEx Primer](https://shex.io/primer-next/) - Primer with `EXTENDS` keyword, Draft Community Group Report 25 May 2022.
 
 ## Legend
-☠️ — Each one denotes 5 years since last update (e.g., ☠️☠️☠️ denotes 15 years).
-
-💰 — Denotes closed source commercial software.
+- ☠️ : Each one denotes 5 years since last update (e.g., ☠️☠️☠️ denotes 15 years).
+- 💰 : Denotes closed source commercial software.
