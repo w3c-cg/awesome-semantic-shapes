@@ -61,6 +61,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` license; `Java`.
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Example implementation of a discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
+- [SHACL Play!](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes file listed here, add it to the Shapes Catalog source file on Github.
 
 ## Shapes Collections
 
@@ -73,12 +74,40 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Shape Generators
 
+ - [SHACL Play!](https://shacl-play.sparna.fr/play/convert) - This utility applies a set of SHACL rules to convert an RDF dataset into another structure. Some SHACL rules are provided in the catalog to convert OWL ontologies to SHACL. 
 - [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL-to-SHACL conversion rules.
-
+- [TopQuadrant: OWL Axioms to SHACL Constraints](https://www.topquadrant.com/doc/latest/reference/Transform_ConvertOWLAxiomsToSHACLConstraints.html) - Commercial closed-source solution by TopQuadrant
+- [elevont/owl2shacl](https://github.com/elevont/owl2shacl) - 
+[![License: AGPL-3.0-or-later](
+    https://img.shields.io/badge/License-AGPL--3.0--or--later-blue.svg)](
+    LICENSE.txt)
+[![REUSE status](
+    https://api.reuse.software/badge/github.com/hoijui/owl2shacl)](
+    https://api.reuse.software/info/github.com/hoijui/owl2shacl)
+[![Repo](
+    https://img.shields.io/badge/Repo-GitHub-555555&logo=github.svg)](
+    https://github.com/hoijui/owl2shacl)
+[![Package Releases](
+    https://img.shields.io/crates/v/owl2shacl.svg)](
+    https://crates.io/crates/owl2shacl)
+[![Documentation Releases](
+    https://docs.rs/owl2shacl/badge.svg)](
+    https://docs.rs/owl2shacl)
+[![Dependency Status](
+    https://deps.rs/repo/github/hoijui/owl2shacl/status.svg)](
+    https://deps.rs/repo/github/hoijui/owl2shacl)
+[![Build Status](
+    https://github.com/hoijui/owl2shacl/workflows/build/badge.svg)](
+    https://github.com/hoijui/owl2shacl/actions)
+[![In cooperation with Open Source Ecology Germany](
+    https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
+    https://opensourceecology.de)
+A [CLI] tool that tries to convert simple [OWL] ontologies into [SHACL] shapes.
 ## Shape-based Query Generators
 
 - [shape-to-query](https://github.com/hypermedia-app/shape-to-query) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shape-to-query" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shape-to-query" align="top"> - Generate SPARQL queries from SHACL Shapes; [docs](https://shape-to-query.hypermedia.app/docs); `MIT` license; `Typescript`.
-  - [playground](https://shape-to-query.hypermedia.app)
+  - [playground](https://shape-to-query.hypermedia.app) - A CLI tool that tries to convert simple OWL ontologies into [SHACL] shapes.
+- [SHACL Play!](https://shacl-play.sparna.fr/play/sparql) - This is a SHACL-based SPARQL generator. It generates SPARQL queries used to extract a subset of data from a knowledge graph, based on the SHACL specification of the target dataset structure.
 
 ## Shape Editors, Visualizations
 
