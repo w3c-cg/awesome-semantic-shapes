@@ -81,28 +81,11 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 [![License: AGPL-3.0-or-later](
     https://img.shields.io/badge/License-AGPL--3.0--or--later-blue.svg)](
     LICENSE.txt)
-[![REUSE status](
-    https://api.reuse.software/badge/github.com/hoijui/owl2shacl)](
-    https://api.reuse.software/info/github.com/hoijui/owl2shacl)
-[![Repo](
-    https://img.shields.io/badge/Repo-GitHub-555555&logo=github.svg)](
-    https://github.com/hoijui/owl2shacl)
 [![Package Releases](
     https://img.shields.io/crates/v/owl2shacl.svg)](
     https://crates.io/crates/owl2shacl)
-[![Documentation Releases](
-    https://docs.rs/owl2shacl/badge.svg)](
-    https://docs.rs/owl2shacl)
-[![Dependency Status](
-    https://deps.rs/repo/github/hoijui/owl2shacl/status.svg)](
-    https://deps.rs/repo/github/hoijui/owl2shacl)
-[![Build Status](
-    https://github.com/hoijui/owl2shacl/workflows/build/badge.svg)](
-    https://github.com/hoijui/owl2shacl/actions)
-[![In cooperation with Open Source Ecology Germany](
-    https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
-    https://opensourceecology.de)
-A [CLI] tool that tries to convert simple [OWL] ontologies into [SHACL] shapes.
+A CLI tool that tries to convert simple OWL ontologies into SHACL shapes.
+
 ## Shape-based Query Generators
 
 - [shape-to-query](https://github.com/hypermedia-app/shape-to-query) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shape-to-query" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shape-to-query" align="top"> - Generate SPARQL queries from SHACL Shapes; [docs](https://shape-to-query.hypermedia.app/docs); `MIT` license; `Typescript`.
