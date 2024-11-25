@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md).
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
 
 This repository is governed by the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
@@ -65,13 +65,13 @@ Where:
 
 #### Non-software items
 
-A simple item without a description:
+Without a description:
 
 ```markdown
-- [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema)
+- [SHACL 1.2 Core](https://w3c.github.io/shacl/shacl-core/)
 ```
 
-Software example :
+With a description:
 ```markdown
 - [Validating RDF Data (2018)](https://book.validatingrdf.com) - The SHACL and ShEx book.
 ```
