@@ -29,6 +29,8 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## SHACL Validators
 
+Software tools or libraries, sorted by programming language.
+
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
 - [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j/tree/main/core/sail/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.eclipse.rdf4j/rdf4j-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.eclipse.rdf4j/rdf4j-shacl" align="top"> - Supports SHACL Core (without some property paths, see [5.0.3 improvements](https://github.com/Sveino/Inst4CIM-KG/issues/95#issuecomment-2437819932)), SHACL-SPARQL, incremental validation; [docs](https://rdf4j.org/documentation/programming/shacl/); `BSD-3-Clause` license; `Java`.
 - [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
@@ -48,6 +50,8 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [rudof](https://rudof-project.github.io/rudof/) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> is a library that implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem. The library is implemented in [Rust](https://www.rust-lang.org/) and also provides Python bindings.
 
 ## ShEx Validators
+
+Software tools or libraries, sorted by programming language.
 
 - [Apache Jena ShEx](https://github.com/apache/jena/tree/main/jena-shex) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shex" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shex" align="top"> - Supports ShEx, ShExC; not supported semantic actions, EXTERNAL; [docs](https://jena.apache.org/documentation/shex/); `Apache-2.0` license; `Java`.
 - [shexSpec/shex.js](https://github.com/shexjs/shex.js) <img alt="NPM Version" src="https://img.shields.io/npm/v/shex" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shexjs/shex.js" align="top"> - JavaScript implementation of Shape Expressions; `MIT` license; `JavaScript`.
