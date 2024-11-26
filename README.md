@@ -45,6 +45,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
   - [rdf-ext-cli](https://github.com/rdf-ext/rdf-ext-cli) - Command line tool for validation. Data and shapes can be given as file, URL, or SPARQL endpoint + query.
 - [SHACL for Ruby](https://github.com/ruby-rdf/shacl) <img alt="Gem Version" src="https://img.shields.io/gem/v/shacl" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ruby-rdf/shacl" align="top"> - A pure-Ruby library for working with the Shape Constraint Language to validate the shape of RDF graphs; `BSD-3-Clause` license; `Ruby`.
 - [maplib](https://github.com/DataTreehouse/maplib) <img src="https://img.shields.io/github/v/tag/DataTreehouse/maplib" align="top"> <img src="https://img.shields.io/github/last-commit/DataTreehouse/maplib" align="top"> - High-performance RDF knowledge graph construction, SHACL validation and SPARQL-based enrichment. `Apache-2.0` license. `Rust, Python`. But SHACL is not open source yet: [lib/shacl/src/lib.rs](https://github.com/DataTreehouse/maplib/blob/main/lib/shacl/src/lib.rs) says `unimplemented!("Contact Data Treehouse to try")`
+- [rudof](https://rudof-project.github.io/rudof/) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> is a library that implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem. The library is implemented in [Rust](https://www.rust-lang.org/) and also provides Python bindings.
 
 ## ShEx Validators
 
@@ -55,6 +56,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
   - [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> ☠️ - Web-based UI to validate RDF against ShEx schemas; `MIT` license; `JavaScript`.
   - [playground1](http://hw-swel.github.io/Validata/) (HW-SWeL)
   - [playground2](https://www.w3.org/2015/03/ShExValidata/) (W3C)
+- [rudof](https://rudof-project.github.io/rudof/) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> is a library that implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem. The library is implemented in [Rust](https://www.rust-lang.org/) and also provides Python bindings.
 
 ## Shapes Discovery Tools
 
@@ -70,6 +72,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 - [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="top"> ☠️ - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` license; `Python`.
 - [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="NPM Version" src="https://img.shields.io/npm/v/@comake/shacl-to-json-schema" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - SHACL-to-JSON-Schema translator; `Typescript`.
+- [rudof](https://rudof-project.github.io/rudof/cli_usage/convert.html) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> supports conversion between different RDF Data modeling technologies using the `convert` command.
 
 ## Shape Generators
 
