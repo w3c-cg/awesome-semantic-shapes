@@ -99,6 +99,7 @@ Data viewers/Editors based on shapes.
 - [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
 - [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for W3C standard SHACL via the Language Server Protocol.
 - [Mentor RDF for VS Code](https://marketplace.visualstudio.com/items?itemName=faubulous.mentor) - Code editing support for RDF, RDFS, OWL, SKOS, SHACL and SPARQL.
+- [SHACLC Language Server](https://marketplace.visualstudio.com/items?itemName=jeswr.shaclc-language-server) ([source](https://github.com/jeswr/shaclc-language-server)) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for CG standard SHACL Compact Syntax via the Language Server Protocol. MIT License.
 
 ## Books
 
