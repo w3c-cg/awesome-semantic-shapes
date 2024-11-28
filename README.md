@@ -89,19 +89,24 @@ Software tools or libraries, sorted by programming language.
 
 ## Shape Editors, Visualizations
 
+Editors that allow you to edit shapes in an easier way and to visualize shapes.
+
 - [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/allotrope-devops/-/wikis/shacl-shape-editor) - The Shape Editor supports editing of shacl and shaclc files; `Apache-2.0` license; `Java`.
+- [Sparna SHACL Play! Draw](https://shacl-play.sparna.fr/play/draw) - Provided visualization using PlantUML.
 
 ## Declarative UIs
 
-Data viewers/Editors based on shapes.
+Instance dData viewers/Editors based on shapes.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
 
 ## IDE support
 
-- [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
-- [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for W3C standard SHACL via the Language Server Protocol.
+These make 
+
+- [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - A VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
+- [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for SHACL via the Language Server Protocol. Similar [VSCode extensions by Stardog](https://marketplace.visualstudio.com/search?term=stardog&target=VSCode&category=All%20categories&sortBy=Relevance) are available for other W3C standard languages: Turtle, SPARQL, Trig, etc
 - [Mentor RDF for VS Code](https://marketplace.visualstudio.com/items?itemName=faubulous.mentor) - Code editing support for RDF, RDFS, OWL, SKOS, SHACL and SPARQL.
 - [SHACLC Language Server](https://marketplace.visualstudio.com/items?itemName=jeswr.shaclc-language-server) ([source](https://github.com/jeswr/shaclc-language-server)) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for CG standard SHACL Compact Syntax via the Language Server Protocol. MIT License.
 
@@ -139,6 +144,13 @@ Data viewers/Editors based on shapes.
 - SHACL-related specifications
   - [The Shape Topologies algorithm](https://treecg.github.io/specification/shape-topologies)
   - [DASH Data Shapes](https://www.datashapes.org/) - Platform-independent extensions of SHACL for common tasks. Stuff that could become an official standard in the future.
+ 
+- SHACL on Graphs (as discussed in [shacl#22](https://github.com/w3c/shacl/issues/22) and [Inst4CIM-KG#140](https://github.com/Sveino/Inst4CIM-KG/issues/140))
+  - [Data Graph](https://w3c.github.io/data-shapes/shacl/#data-graph) and Shapes Graph are the inputs to a SHACL validator - But these are "ephemeral", and spec doesn't concretize how to pass them to the validator.
+  - [sh:shapesGraph](https://w3c.github.io/data-shapes/shacl/#sh-shapes-graph) - A triple in the data that **suggests** which shapes to select for validation.
+  - `rdf4j:SHACLShapeGraph` - in RDF4J is the default shape (see [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
+  - `rsx:DataAndShapesGraphLink, rsx:shapesGraph, rsx:dataGraph` - in RDF4J allow to describe exactly which shapes go with which graphs (see [doc](https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html#union-of-data-graphs-when-validating-the-results) or [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
+  - [Extending SHACL to RDF Datasets](https://afs.github.io/shacl-datasets.html) - Proposal that describes applying SHACL to RDF Datasets by Jena's author.
 
 - ShEx
   - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
