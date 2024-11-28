@@ -96,14 +96,14 @@ Editors that allow you to edit shapes in an easier way and to visualize shapes.
 
 ## Declarative UIs
 
-Instance dData viewers/Editors based on shapes.
+Instance data viewers/Editors based on shapes, i.e. UI Generation from shapes.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
 
 ## IDE support
 
-These make 
+These make editing shapes within an IDE like VSCode easier.
 
 - [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - A VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
 - [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for SHACL via the Language Server Protocol. Similar [VSCode extensions by Stardog](https://marketplace.visualstudio.com/search?term=stardog&target=VSCode&category=All%20categories&sortBy=Relevance) are available for other W3C standard languages: Turtle, SPARQL, Trig, etc
