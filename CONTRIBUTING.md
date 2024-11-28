@@ -13,13 +13,13 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 To be on the list, project repositories should adhere to the following quality standards.
 
-- have at least 5 months of history since the first commit.
-- function as documented and expected;
-- be generally useful to the wider Semantic Web community;
-- be actively maintained or not maintained anymore but finished and extremely useful (should be marked with ☠️);
-- be stable or progressing toward stable;
-- have at least one official version-numbered release;
-- be open source or commercial (marked with 💰) software.
+- have at least 5 months of history since the first commit
+- function as documented and expected
+- be generally useful to the wider Semantic Web community
+- be actively maintained or not maintained anymore but finished and extremely useful (should be marked with ☠️)
+- be stable or progressing toward stable
+- have at least one official version-numbered release
+- be open source or commercial (marked with 💰) software
 
 Categories must have at least 3 items.
 
@@ -27,39 +27,41 @@ Categories must have at least 3 items.
 
 Open a pull request against the README.md document that adds the repository to the list.
 
-- The pull request could add more than one item to the list.
-- The added items should respect sorting within its category:
-  - by programming language first (if it is applicable),
-  - and then in alphabetical order.
+- One pull request can add more than one item to the list
+- Each item should be added respecting sorting within its category
+  - firstly, by programming language (if applicable)
+  - secondly, in alphabetical order
 
 ## Item format
 
 Non-software item must conform to the following format:
-
-`<link> - <Description>.`
+```
+<link> - <Description>.
+```
 
 Software item must conform to the following format:
+```
+<link> <activity info> - <Description>.
+```
 
-`<link> <activity info> - <Description>.`
-
-Where:
-- The link:
-  - Should be the name of the package or project.
-  - The hyperlink should point to a specific module related to the category (e.g. in case of 'SHACL Validators' section, use `https://github.com/apache/jena/tree/main/jena-shacl`, not `https://github.com/apache/jena`).
-- Activity info:
-  - Should consists of two badges:
-    - Latest known stable version badge (from any most common binary repository or GH Releases).
-    - Recent repository activity badge.
-  - Use `<img align="top">` badge format to better inline alignment.
-  - Do not use any other badges (build status, dependencies, etc.).
-  - Additional icons could be used to mark commercial 💰 or abandoned ☠️ software.
-- Description:
-  - Should be clear, concise, and non-promotional.
-  - Should begin with a capital letter.
-  - May consist of several sentences.
-  - Should be separated from the activity info with spaces and a dash ` - `.
-  - Should contain license info and programming language at the end, formatted as `text in code quotes`.
-  - Should follow the link on the same line and end with a punctuation mark. Remember to put a period `.` at the end of the project description.
+In each case:
+- The link
+  - Should be the name of the package or project
+  - Should point to a specific module related to the category (e.g., in the 'SHACL Validators' section, link to `https://github.com/apache/jena/tree/main/jena-shacl`, not `https://github.com/apache/jena`)
+- Activity info
+  - Should consist of two badges
+    - The latest known stable version badge (from any most common binary repository or GH Releases)
+    - The recent repository activity badge
+  - Use `<img align="top">` badge format for better inline alignment
+  - Do not use any other badges (build status, dependencies, etc.)
+  - Additional emoji can be used to mark commercial 💰 or abandoned ☠️ software
+- Descriptions
+  - Should be clear, concise, and non-promotional
+  - Should begin with a capital letter
+  - May consist of several sentences
+  - Should be separated from the activity info with spaces and a hyphen ` - `
+  - Should contain license info and programming language at the end, formatted as ``` `text in code quotes` ```
+  - Should follow the link on the same line and end with a punctuation mark. Remember to put a period `.` at the end of the project description
 
 ### Examples
 
@@ -84,23 +86,36 @@ With a description:
 
 ## How to add a new category
 
-If you are creating a new category, move the projects that apply to the new category, ensuring
-that the resulting list has at least 3 projects in every category, and that the categories are alphabetized.
+If you are creating a new category, move any relevant projects to that new category, while ensuring
+that every category in the resulting list has at least 3 projects, and that the categories are alphabetized.
 
 ## Updating your PR
 
-A lot of times, making a PR adhere to the standards above can be difficult.
+It is often difficult to make a PR adhere to the standards above.
 If the maintainers notice anything that we'd like changed, we'll ask you to
-edit your PR before we merge it. There's no need to open a new PR, just edit
+edit your PR before we merge it. There's no need to open a new PR; just edit
 the existing one.
 
-## Congrats, your project got accepted - what now?
+## Congratulations, your project got accepted — what now?
 
-You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:  
-[![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)  
-[![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)
+You are an outstanding project now! We encourage you to tell others about it 
+by adding one of these badges to your project webpage(s):
+- [![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)  
+  - ```md
+    [![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)  
+    ```
+  - ```html
+    <a href="https://github.com/w3c-cg/awesome-semantic-shapes">
+      <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Semantic Shapes" style="max-width: 100%;">
+    </a>
+    ```
 
-```md
-[![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)  
-[![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)
-```
+- [![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)
+  - ```md
+    [![Mentioned in Awesome Semantic Shapes](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/w3c-cg/awesome-semantic-shapes)
+    ```
+  - ```html
+    <a href="https://github.com/w3c-cg/awesome-semantic-shapes">
+      <img src="https://awesome.re/mentioned-badge-flat.svg" alt="Mentioned in Awesome Semantic Shapes" style="max-width: 100%;">
+    </a>
+    ```
