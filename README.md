@@ -61,7 +61,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` license; `Java`.
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Example implementation of a discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
-- [SHACL Play!](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes file listed here, add it to the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
+- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes file listed here, add it to the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
 
 ## Shapes Collections
 
