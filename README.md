@@ -31,12 +31,12 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
 - [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j/tree/main/core/sail/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.eclipse.rdf4j/rdf4j-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.eclipse.rdf4j/rdf4j-shacl" align="top"> - Supports SHACL Core (without some property paths, see [5.0.3 improvements](https://github.com/Sveino/Inst4CIM-KG/issues/95#issuecomment-2437819932)), SHACL-SPARQL, incremental validation; [docs](https://rdf4j.org/documentation/programming/shacl/); `BSD-3-Clause` license; `Java`.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
+- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> 💰 - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
   - [RDF validator](https://www.itb.ec.europa.eu/shacl/any/upload) - The EU Interoperability Test Bed (ITB) playground based on TQ API; validate any RDF with SHACL Shapes.
   - [SHACL shapes validator](https://www.itb.ec.europa.eu/shacl/shacl/upload) - The EU Interoperability Test Bed (ITB) playgrounds based on TQ API; validate SHACL Shapes itself.
   - [Sparna SHACL playground](https://shacl-play.sparna.fr/play/) - Free online suite of tools from Sparna to work with SHACL; based on TQ API.
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SHACL-X/shacl-x" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/SHACL-X/shacl-x" align="top"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; [docs](https://shacl-x.github.io/docs/); `BSD-3-Clause` license; `Java`.
-- [shacl-js](https://github.com/TopQuadrant/shacl-js) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/TopQuadrant/shacl-js" align="top"> - SHACL API; `Apache` license; `JavaScript`. Recommends migration to `rdf-validate-shacl`. ☠️.
+- [shacl-js](https://github.com/TopQuadrant/shacl-js) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/TopQuadrant/shacl-js" align="top"> 💰 - SHACL API; `Apache` license; `JavaScript`. Recommends migration to `rdf-validate-shacl`. ☠️.
   - [playground](https://shacl.org/playground/) - Browser-based testbed.
 - [rdf-validate-shacl](https://github.com/zazuko/rdf-validate-shacl) <img alt="NPM Version" src="https://img.shields.io/npm/v/rdf-validate-shacl" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/zazuko/rdf-validate-shacl" align="top"> - Supports SHACL Core; pure JavaScript validator on top of the [RDFJS](https://rdf.js.org/) stack; `MIT` license; `JavaScript`.
   - [playground](https://zazuko.github.io/shacl-playground) - Browser-based testbed.
@@ -74,23 +74,16 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 
 ## Shape Generators
 
- - [SHACL Play!](https://shacl-play.sparna.fr/play/convert) - This utility applies a set of SHACL rules to convert an RDF dataset into another structure. Some SHACL rules are provided in the catalog to convert OWL ontologies to SHACL. 
+ - [SHACL Play! Converter](https://shacl-play.sparna.fr/play/convert) - Converts between RDF schema formats. Has OWL-to-SHACL (open, semi-closed, closed). 
 - [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL-to-SHACL conversion rules.
-- [TopQuadrant: OWL Axioms to SHACL Constraints](https://www.topquadrant.com/doc/latest/reference/Transform_ConvertOWLAxiomsToSHACLConstraints.html) - Commercial closed-source solution by TopQuadrant
-- [elevont/owl2shacl](https://github.com/elevont/owl2shacl) - 
-[![License: AGPL-3.0-or-later](
-    https://img.shields.io/badge/License-AGPL--3.0--or--later-blue.svg)](
-    LICENSE.txt)
-[![Package Releases](
-    https://img.shields.io/crates/v/owl2shacl.svg)](
-    https://crates.io/crates/owl2shacl)
-A CLI tool that tries to convert simple OWL ontologies into SHACL shapes.
+- [TopQuadrant: OWL Axioms to SHACL Constraints](https://www.topquadrant.com/doc/latest/reference/Transform_ConvertOWLAxiomsToSHACLConstraints.html) 💰 - Commercial closed-source solution by TopQuadrant
+- [elevont/owl2shacl](https://github.com/elevont/owl2shacl) - A CLI tool that tries to convert simple OWL ontologies into SHACL shapes; `AGPL-3.0` license; `rust`.
 
 ## Shape-based Query Generators
 
 - [shape-to-query](https://github.com/hypermedia-app/shape-to-query) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shape-to-query" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shape-to-query" align="top"> - Generate SPARQL queries from SHACL Shapes; [docs](https://shape-to-query.hypermedia.app/docs); `MIT` license; `Typescript`.
-  - [playground](https://shape-to-query.hypermedia.app) - A CLI tool that tries to convert simple OWL ontologies into [SHACL] shapes.
-- [SHACL Play!](https://shacl-play.sparna.fr/play/sparql) - This is a SHACL-based SPARQL generator. It generates SPARQL queries used to extract a subset of data from a knowledge graph, based on the SHACL specification of the target dataset structure.
+  - [playground](https://shape-to-query.hypermedia.app)
+- [SHACL Play! SPARQL](https://shacl-play.sparna.fr/play/sparql) - Generates SPARQL queries to extract RDF subset based on SHACL specification of the target dataset.
 
 ## Shape Editors, Visualizations
 
