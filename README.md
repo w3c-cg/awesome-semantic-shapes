@@ -96,7 +96,7 @@ Editors that allow you to edit shapes in an easier way and to visualize shapes.
 
 ## Declarative UIs
 
-Instance data viewers/Editors based on shapes, i.e. UI Generation from shapes.
+Instance data viewers/editors based on shapes, e.g., UI generated from shape definitions.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
