@@ -106,7 +106,7 @@ Instance data viewers/editors based on shapes, e.g., UI generated from shape def
 These make editing shapes within an IDE like VSCode easier.
 
 - [Linked Data Extension](https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data) - A VS Code Extension for editing RDF files with embedded SHACL validator and SPARQL engine.
-- [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for SHACL via the Language Server Protocol. Similar [VSCode extensions by Stardog](https://marketplace.visualstudio.com/search?term=stardog&target=VSCode&category=All%20categories&sortBy=Relevance) are available for other W3C standard languages: Turtle, SPARQL, Trig, etc
+- [SHACL Language Server](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-langserver-shacl) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for SHACL via the Language Server Protocol. Part of [Stardog RDF Languages Extension Pack](https://marketplace.visualstudio.com/items?itemName=stardog-union.vscode-stardog-languages)
 - [Mentor RDF for VS Code](https://marketplace.visualstudio.com/items?itemName=faubulous.mentor) - Code editing support for RDF, RDFS, OWL, SKOS, SHACL and SPARQL.
 - [SHACLC Language Server](https://marketplace.visualstudio.com/items?itemName=jeswr.shaclc-language-server) ([source](https://github.com/jeswr/shaclc-language-server)) - A VS Code extension providing language intelligence (diagnostics, hover tooltips, auto-completion, etc.) for CG standard SHACL Compact Syntax via the Language Server Protocol. MIT License.
 
