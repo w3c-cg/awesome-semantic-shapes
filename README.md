@@ -146,11 +146,11 @@ These make editing shapes within an IDE like VSCode easier.
   - [DASH Data Shapes](https://www.datashapes.org/) - Platform-independent extensions of SHACL for common tasks. Stuff that could become an official standard in the future.
  
 - SHACL on Graphs (as discussed in [shacl#22](https://github.com/w3c/shacl/issues/22) and [Inst4CIM-KG#140](https://github.com/Sveino/Inst4CIM-KG/issues/140))
-  - [Data Graph](https://w3c.github.io/data-shapes/shacl/#data-graph) and Shapes Graph are the inputs to a SHACL validator - But these are "ephemeral", and spec doesn't concretize how to pass them to the validator.
-  - [sh:shapesGraph](https://w3c.github.io/data-shapes/shacl/#sh-shapes-graph) - A triple in the data that **suggests** which shapes to select for validation.
-  - `rdf4j:SHACLShapeGraph` - in RDF4J is the default shape (see [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
-  - `rsx:DataAndShapesGraphLink, rsx:shapesGraph, rsx:dataGraph` - in RDF4J allow to describe exactly which shapes go with which graphs (see [doc](https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html#union-of-data-graphs-when-validating-the-results) or [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
-  - [Extending SHACL to RDF Datasets](https://afs.github.io/shacl-datasets.html) - Proposal that describes applying SHACL to RDF Datasets by Jena's author.
+  - [Data Graph](https://w3c.github.io/data-shapes/shacl/#data-graph) and Shapes Graph (SHACL spec) - the inputs to a SHACL validator, but these are "ephemeral", and spec doesn't concretize how to pass them to the validator.
+  - [sh:shapesGraph](https://w3c.github.io/data-shapes/shacl/#sh-shapes-graph) (SHACL spec) - A triple in the data graph that **suggests** which shapes to select for validation.
+  - `rdf4j:SHACLShapeGraph` (RDF4J extension) - default shape graph in RDF4J (see [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
+  - `rsx:DataAndShapesGraphLink, rsx:shapesGraph, rsx:dataGraph` (RDF4J extension) - describe exactly which shapes go with which graphs (see [doc](https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html#union-of-data-graphs-when-validating-the-results) or [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
+  - [Extending SHACL to RDF Datasets](https://afs.github.io/shacl-datasets.html) (by Jena's author) - Proposal that describes applying SHACL to RDF Datasets.
 
 - ShEx
   - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
