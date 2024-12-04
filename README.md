@@ -72,14 +72,14 @@ Software tools or libraries, sorted by programming language.
 ## Shapes Collections
 
 - [schema.org Shapes](http://datashapes.org/schema) - Schema.org, converted to SHACL by TopQuadrant.
-- [Europarl Shapes](https://data.europarl.europa.eu/en/developer-corner) - Application profiles for European Parliament & all related dataset-specific profiles
+- [Europarl Shapes](https://data.europarl.europa.eu/en/developer-corner) - Application profiles for European Parliament & all related dataset-specific profiles.
 
 ## Shape Conversion Tools
 
 - [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="top"> ☠️ - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` license; `Python`.
 - [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="NPM Version" src="https://img.shields.io/npm/v/@comake/shacl-to-json-schema" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - SHACL-to-JSON-Schema translator; `Typescript`.
 - [rudof](https://rudof-project.github.io/rudof/cli_usage/convert.html) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> supports conversion between different RDF Data modeling technologies using the `convert` command.
-- [SHACL Play!](https://github.com/sparna-git/shacl-play) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/shacl-play" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/shacl-play" align="top"> - SHACL-to-JSON-LD context generator; `Java`.
+- [SHACL Play! JSON-LD context](https://shacl-play.sparna.fr/play/context) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/shacl-play" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/shacl-play" align="top"> - SHACL-to-JSON-LD context generator; `Java`.
 
 ## Shape Generators
 
@@ -97,7 +97,10 @@ Software tools or libraries, sorted by programming language.
 ## Shape Editors, Visualizations
 
 - [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/allotrope-devops/-/wikis/shacl-shape-editor) - The Shape Editor supports editing of shacl and shaclc files; `Apache-2.0` license; `Java`.
-- [SHACL Play! Tools](https://shacl-play.sparna.fr/) - Edit SHACL via Excel templates, generate documentations & UML diagrams; `LGPL-3.0 license` license; `Java`.
+- [SHACL Play! Tools](https://shacl-play.sparna.fr/) - Edit & visualize SHACL; `LGPL-3.0 license` license; `Java`.
+  - [SHACL in Excel](https://shacl-play.sparna.fr/play/shaclexcel)
+  - [SHACL documentation](https://shacl-play.sparna.fr/play/doc)
+  - [UML diagrams](https://shacl-play.sparna.fr/play/draw)
 
 ## Declarative UIs
 
@@ -105,7 +108,7 @@ Data viewers/Editors based on shapes.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
-- [SHACL Play!](https://github.com/sparna-git/shacl-play) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/shacl-play" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/shacl-play" align="top"> - SHACL Shapes viewer & editor; [docs] (https://shacl-play.sparna.fr/play/doc#documentation); `LGPL-3.0 license` license; `Java`.
+- [SHACL Play!](https://github.com/sparna-git/shacl-play) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/shacl-play" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/shacl-play" align="top"> - SHACL Shapes viewer & editor; [docs](https://shacl-play.sparna.fr/play/doc#documentation); `LGPL-3.0 license` license; `Java`.
 
 ## IDE support
 
