@@ -98,9 +98,9 @@ Software tools or libraries, sorted by programming language.
 
 - [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/allotrope-devops/-/wikis/shacl-shape-editor) - The Shape Editor supports editing of shacl and shaclc files; `Apache-2.0` license; `Java`.
 - [SHACL Play! Tools](https://shacl-play.sparna.fr/) - Edit & visualize SHACL; `LGPL-3.0 license` license; `Java`.
-  - [SHACL in Excel](https://shacl-play.sparna.fr/play/shaclexcel)
-  - [SHACL documentation](https://shacl-play.sparna.fr/play/doc)
-  - [UML diagrams](https://shacl-play.sparna.fr/play/draw)
+  - [SHACL in Excel](https://shacl-play.sparna.fr/play/shaclexcel) - A SHACL editor from Excel.
+  - [SHACL documentation](https://shacl-play.sparna.fr/play/doc) - A documentation generator to print an application profile specified in SHACL.
+  - [UML diagrams](https://shacl-play.sparna.fr/play/draw) - A diagram generator to display an application profile specified in SHACL.
 
 ## Declarative UIs
 
@@ -108,7 +108,7 @@ Data viewers/Editors based on shapes.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
-- [Sparnatural](https://github.com/sparna-git/Sparnatural) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/Sparnatural" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/Sparnatural" align="top"> - visual knowledge graph explorer with SPARQL, in the browser, configurable with SHACL; [docs](https://docs.sparnatural.eu/index.html#31-shacl-configuration); `LGPL-3.0 license` license; `Typescript`.
+- [Sparnatural](https://github.com/sparna-git/Sparnatural) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/Sparnatural" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/Sparnatural" align="top"> - Visual knowledge graph explorer with SPARQL, in the browser, configurable with SHACL; [docs](https://docs.sparnatural.eu/index.html#31-shacl-configuration); `LGPL-3.0 license` license; `Typescript`.
 
 ## IDE support
 
