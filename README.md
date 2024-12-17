@@ -33,9 +33,9 @@ Software tools or libraries, sorted by programming language.
 
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
 - [RDF4J SHACL Engine](https://github.com/eclipse-rdf4j/rdf4j/tree/main/core/sail/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.eclipse.rdf4j/rdf4j-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.eclipse.rdf4j/rdf4j-shacl" align="top"> - Supports SHACL Core (without some property paths, see [5.0.3 improvements](https://github.com/Sveino/Inst4CIM-KG/issues/95#issuecomment-2437819932)), SHACL-SPARQL, incremental validation; [docs](https://rdf4j.org/documentation/programming/shacl/); `BSD-3-Clause` license; `Java`.
-- [TopBraid SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> 💰 - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
+- [TopQuadrant SHACL API](https://github.com/TopQuadrant/shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.topbraid/shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.topbraid/shacl" align="top"> 💰 - Supports SHACL Core, SHACL-SPARQL, SHACL rules; based on Jena; `BSD-3-Clause` license; `Java`.
   - [EU Interoperability Test Bed (ITB)](https://github.com/ISAITB/shacl-validator) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ISAITB/shacl-validator" align="top"> - playground based on TQ API, [docs](https://www.itb.ec.europa.eu/docs/guides/latest/validatingRDF/index.html): validate [RDF data](https://www.itb.ec.europa.eu/shacl/any/upload), [SHACL shapes](https://www.itb.ec.europa.eu/shacl/shacl/upload), [DCAT-AP.DE](https://www.itb.ec.europa.eu/shacl/dcat-ap.de/upload)
-  - [Sparna SHACL playground](https://shacl-play.sparna.fr/play/) - Free online suite of tools from Sparna to work with SHACL; based on TQ API.
+  - [Sparna SHACL playground](https://shacl-play.sparna.fr/play/) - Free online suite of tools to work with SHACL; based on TQ API; `Java`
 - [TopBraid SHACL API Extended](https://github.com/SHACL-X/shacl-x) <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SHACL-X/shacl-x" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/SHACL-X/shacl-x" align="top"> - Fork of TopBraid SHACL API + added SHACL-JS based on GraalVM Polyglot; [docs](https://shacl-x.github.io/docs/); `BSD-3-Clause` license; `Java`.
 - [shacl-js](https://github.com/TopQuadrant/shacl-js) <img alt="GitHub Release Date" src="https://img.shields.io/github/last-commit/TopQuadrant/shacl-js" align="top"> - SHACL API; `Apache` license; `JavaScript`. Recommends migration to `rdf-validate-shacl`. ☠️.
   - [playground](https://shacl.org/playground/) - Browser-based testbed.
@@ -63,24 +63,26 @@ Software tools or libraries, sorted by programming language.
 
 ## Shapes Discovery Tools
 
-- [RDFminer](https://github.com/Wimmics/RDFminer) - Web application to automatically discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` license; `Java`.
-- [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Example implementation of a discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
+- [RDFminer](https://github.com/Wimmics/RDFminer) - Discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` license; `Java`.
+- [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
-- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes file listed here, add it to the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
+- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
 
 ## Shapes Collections
 
 - [schema.org Shapes](http://datashapes.org/schema) - Schema.org, converted to SHACL by TopQuadrant.
+- [Europarl Shapes](https://data.europarl.europa.eu/en/developer-corner) - Application profiles for European Parliament & all related dataset-specific profiles.
 
 ## Shape Conversion Tools
 
 - [ShacShifter](https://github.com/AKSW/ShacShifter) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AKSW/ShacShifter" align="top"> ☠️ - Shape shifter from SHACL to other formats (currently RDForms); `GPL-3.0` license; `Python`.
 - [SHACL To JSON Schema](https://github.com/comake/shacl-to-json-schema) <img alt="NPM Version" src="https://img.shields.io/npm/v/@comake/shacl-to-json-schema" align="top"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/comake/shacl-to-json-schema" align="top"> - SHACL-to-JSON-Schema translator; `Typescript`.
 - [rudof](https://rudof-project.github.io/rudof/cli_usage/convert.html) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> supports conversion between different RDF Data modeling technologies using the `convert` command.
+- [SHACL Play! JSON-LD context](https://shacl-play.sparna.fr/play/context) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/shacl-play" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/shacl-play" align="top"> - SHACL-to-JSON-LD context generator; `Java`.
 
 ## Shape Generators
 
- - [SHACL Play! Converter](https://shacl-play.sparna.fr/play/convert) - Converts between RDF schema formats. Has OWL-to-SHACL (open, semi-closed, closed). 
+- [SHACL Play! Converter](https://shacl-play.sparna.fr/play/convert) - Converts between RDF schema formats. Has OWL-to-SHACL (open, semi-closed, closed). 
 - [owl2shacl](https://github.com/sparna-git/owl2shacl) - OWL-to-SHACL conversion rules.
 - [TopQuadrant: OWL Axioms to SHACL Constraints](https://www.topquadrant.com/doc/latest/reference/Transform_ConvertOWLAxiomsToSHACLConstraints.html) 💰 - Commercial closed-source solution by TopQuadrant
 - [elevont/owl2shacl](https://github.com/elevont/owl2shacl) - A CLI tool that tries to convert simple OWL ontologies into SHACL shapes; `AGPL-3.0` license; `rust`.
@@ -94,6 +96,10 @@ Software tools or libraries, sorted by programming language.
 ## Shape Editors, Visualizations
 
 - [Allotrope Shape Editor](https://gitlab.com/allotrope-open-source/allotrope-devops/-/wikis/shacl-shape-editor) - The Shape Editor supports editing of shacl and shaclc files; `Apache-2.0` license; `Java`.
+- [SHACL Play! Tools](https://shacl-play.sparna.fr/) - Edit & visualize SHACL; `LGPL-3.0 license` license; `Java`.
+  - [SHACL in Excel](https://shacl-play.sparna.fr/play/shaclexcel) - A SHACL editor from Excel.
+  - [SHACL documentation](https://shacl-play.sparna.fr/play/doc) - A documentation generator to print an application profile specified in SHACL.
+  - [UML diagrams](https://shacl-play.sparna.fr/play/draw) - A diagram generator to display an application profile specified in SHACL.
 
 ## Declarative UIs
 
@@ -101,6 +107,7 @@ Data viewers/Editors based on shapes.
 
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
+- [Sparnatural](https://github.com/sparna-git/Sparnatural) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/Sparnatural" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/Sparnatural" align="top"> - Visual knowledge graph explorer with SPARQL, in the browser, configurable with SHACL; [docs](https://docs.sparnatural.eu/index.html#31-shacl-configuration); `LGPL-3.0 license` license; `Typescript`.
 
 ## IDE support
 
@@ -133,6 +140,7 @@ Data viewers/Editors based on shapes.
   - [SHACL JavaScript Extensions](https://www.w3.org/TR/shacl-js/) - W3C Working Group Note, 08 June 2017.
   - [SHACL Test Suite and Implementation Report](https://w3c.github.io/data-shapes/data-shapes-test-suite/) - W3C Document 01 July 2019.
   - [SHACL Use Cases and Requirements](https://www.w3.org/TR/shacl-ucr/) - W3C Working Group Note 20 July 2017.
+  - [Data Shapes Working Group](https://www.w3.org/2024/12/data-shapes.html) - Re-chartered from Dec 2024 to Dec 2026 to update the specs. [Join](https://www.w3.org/groups/wg/data-shapes/join)
 
 - SHACL Community Group Latest Drafts & Notes
   - [SHACL 1.2 Core](https://w3c.github.io/shacl/shacl-core/)
