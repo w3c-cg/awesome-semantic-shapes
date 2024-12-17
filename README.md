@@ -150,7 +150,7 @@ These make editing shapes within an IDE like VSCode easier.
   - [sh:shapesGraph](https://w3c.github.io/data-shapes/shacl/#sh-shapes-graph) (SHACL spec) - A triple in the data graph that **suggests** which shapes to select for validation.
   - `rdf4j:SHACLShapeGraph` (RDF4J extension) - default shape graph in RDF4J (see [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
   - `rsx:DataAndShapesGraphLink, rsx:shapesGraph, rsx:dataGraph` (RDF4J extension) - describe exactly which shapes go with which graphs (see [doc](https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html#union-of-data-graphs-when-validating-the-results) or [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
-  - [Extending SHACL to RDF Datasets](https://afs.github.io/shacl-datasets.html) (by Jena's author) - Proposal that describes applying SHACL to RDF Datasets.
+  - [Extending SHACL to RDF Datasets](https://afs.github.io/shacl-datasets.html) - Proposal (by Jena's author) that describes one way to apply SHACL to RDF Datasets.
 
 - ShEx
   - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
