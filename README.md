@@ -14,7 +14,7 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [SHACL Validators](#shacl-validators)
 - [ShEx Validators](#shex-validators)
 - [Shape Discovery Tools and  Collections](#shape-discovery-tools-and-collections)
-- [Shape Shape Convertors and Generators](#shape-convertors-and-generators)
+- [Shape Convertors and Generators](#shape-convertors-and-generators)
 - [Shape-based Query Generators](#shape-based-query-generators)
 - [Shape Editors, Visualizations](#shape-editors-visualizations)
 - [Declarative UIs](#declarative-uis)
