@@ -148,6 +148,7 @@ These make editing shapes within an IDE like VSCode easier.
 - SHACL on Graphs (as discussed in [shacl#22](https://github.com/w3c/shacl/issues/22) and [Inst4CIM-KG#140](https://github.com/Sveino/Inst4CIM-KG/issues/140))
   <!--lint ignore double-link-->
   - [Data Graph](https://w3c.github.io/data-shapes/shacl/#data-graph) - The input to a SHACL validator (along with the Shapes Graph or SHACL spec), but these are "ephemeral", and spec doesn't concretize how to pass them to the validator.
+  <!--lint ignore double-link-->
   - [sh:shapesGraph](https://w3c.github.io/data-shapes/shacl/#sh-shapes-graph) (SHACL spec) - A triple in the data graph that **suggests** which shapes to select for validation.
   - `rdf4j:SHACLShapeGraph` (RDF4J extension) - default shape graph in RDF4J (see [this blog](https://www.ontotext.com/blog/shacl-ing-the-data-quality-dragon-iii-a-good-artisan-knows-their-tools/)).
   <!--lint ignore awesome-list-item double-link-->
