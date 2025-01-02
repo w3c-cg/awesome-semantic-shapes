@@ -57,7 +57,7 @@ Software tools or libraries, sorted by programming language.
   - [Validata](https://github.com/HW-SWeL/Validata) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HW-SWeL/Validata" align="top"> ☠️ - Web-based UI to validate RDF against ShEx schemas; `MIT` license; `JavaScript`.
   - [playground1](http://hw-swel.github.io/Validata/) (HW-SWeL)
   - [playground2](https://www.w3.org/2015/03/ShExValidata/) (W3C)
-- [rudof](https://github.com/rudof-project/rudof) [![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)](https://crates.io/crates/rudof-cli) [![PyPI](https://img.shields.io/pypi/v/pyrudof)](https://pypi.org/project/pyrudof/) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top">, [docs](https://rudof-project.github.io/rudof/cli_usage/shex.html) - Implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem; library and CLI; `Apache` and `MIT` licenses; `Rust` with `Python` bindings.
+- [rudof](https://github.com/rudof-project/rudof) <img alt="Latest Version" src="https://img.shields.io/crates/v/rudof-cli" align="top"> <img alt="Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> - Implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem; library and CLI; `Apache` and `MIT` licenses; `Rust` with `Python` bindings.  [docs](https://rudof-project.github.io/rudof/cli_usage/shex.html).
 
 ## Shape Discovery Tools and Collections
 
