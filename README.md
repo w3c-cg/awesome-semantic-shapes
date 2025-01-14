@@ -67,6 +67,7 @@ Software tools or libraries, sorted by programming language.
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
 - [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
+- [sheXer](https://github.com/weso/shexer/) - Library to extract ShEx/SHACL shapes from RDF data, SPARQL endpoints, or rdflib graphs. It offers iterative parsing and/or sampling to deal with big datasets; `Apache` License; `Python`.
 
 ## Shapes Collections
 
