@@ -124,6 +124,7 @@ Data viewers/Editors based on shapes.
 ## Tutorials
 
 - [Shapes applications and tools: ISWC'20 Tutorial](https://www.validatingrdf.com/tutorial/iswc2020/) - Main tutorial.
+- [neonto Academy](https://neonto.de/solutions/academy/) 💰 - Online academy with interactive programming tasks for SHACL and other semantic web standards
 
 ## Talks and Presentations
 
