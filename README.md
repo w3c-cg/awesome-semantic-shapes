@@ -23,7 +23,6 @@ Semantic shapes are frequently described using the SHACL or ShEx language.
 - [Tutorials](#tutorials)
 - [Talks and Presentations](#talks-and-presentations)
 - [Specifications](#specifications)
-- [Legend](#legend)
 
 ## SHACL Validators
 
@@ -159,6 +158,8 @@ Data viewers/Editors based on shapes.
   - [Recommended Practice for Standard for Shape Expression Schemas](https://shexspec.github.io/spec/) - IEEE Computer Society P3330/D3, Draft 9 October 2024. Next-version spec with `EXTENDS` keyword.
   - [ShEx Primer](https://shex.io/primer-next/) - Primer with `EXTENDS` keyword, Draft Community Group Report 25 May 2022.
 
-## Legend
+## Footnotes
+
+Legend:
 - ☠️ : Each one denotes 5 years since last update (e.g., ☠️☠️☠️ denotes 15 years).
 - 💰 : Denotes closed source commercial software.
