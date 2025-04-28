@@ -105,6 +105,8 @@ Data viewers/Editors based on shapes.
 - [shaperone](https://github.com/hypermedia-app/shaperone) <img alt="NPM Version" src="https://img.shields.io/npm/v/@hydrofoil/shaperone-wc" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/hypermedia-app/shaperone" align="top"> - SHACL Shapes Form generator; [docs](https://forms.hypermedia.app); `MIT` license; `Typescript`.
   - [playground](https://forms.hypermedia.app/playground)
 - [Sparnatural](https://github.com/sparna-git/Sparnatural) <img alt="Version" src="https://img.shields.io/github/v/release/sparna-git/Sparnatural" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/sparna-git/Sparnatural" align="top"> - Visual knowledge graph explorer with SPARQL, in the browser, configurable with SHACL; [docs](https://docs.sparnatural.eu/index.html#31-shacl-configuration); `LGPL-3.0 license` license; `Typescript`.
+- [shacl-form](https://github.com/ULB-Darmstadt/shacl-form) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/ULB-Darmstadt/shacl-form" align="top"> - HTML5 web component for editing/viewing RDF data. `MIT` license; `TypeScript`
+  - [playground](https://ulb-darmstadt.github.io/shacl-form/)
 
 ## IDE support
 
