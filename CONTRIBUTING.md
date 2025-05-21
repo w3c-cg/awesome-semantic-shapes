@@ -51,7 +51,11 @@ In each case:
 - Activity info
   - Should consist of two badges
     - The latest known stable version badge (from any most common binary repository or GH Releases)
-    - The recent repository activity badge
+    - The recent repository activity badge (only one of these options): 
+      - "latest release date" (recommended) from any repository binary or GitHub Releases
+      - if there is no published versions, then "last commit date"
+  - Should not contain URL links
+  - Use HTML `<img/>` badge format, not Markdown image, (e.g. use `<img alt="Latest Version" src="https://img.shields.io/crates/v/rudof-cli" align="top">` not `![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)`)
   - Use `<img align="top">` badge format for better inline alignment
   - Do not use any other badges (build status, dependencies, etc.)
   - Additional emoji can be used to mark commercial 💰 or abandoned ☠️ software
@@ -82,6 +86,29 @@ With a description:
 
 ```markdown
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
+```
+
+### Ignoring some linter's errors
+
+Our list [awesome lint](https://github.com/sindresorhus/awesome-lint)
+
+In general it is better to comply with linter's rules. But in some cases it is acceptable to bypass it:
+- If you are adding reasonably the same URL link to several list's categories, you'll end up with duplication errors.
+- If you reasonably need more freedom in a description formatting, this will lead to formatting errors.
+
+In this cases it is possible to enable/disable some linter's rules for the specific list item (lines) only with ```lint ignore``` (the recommended approach) or enable/disable it globally (not recommended) with ```lint disable``` and ```lint enable```.
+
+Just put the rule IDs after the "lint ignore" and separate it with a space from each other.
+
+- double-link -- checks list item duplication
+- awesome-list-item -- checks list item formatting
+
+Examples
+
+```
+<!--lint ignore double-link-->
+<!--lint ignore awesome-list-item-->
+<!--lint ignore awesome-list-item double-link-->
 ```
 
 ## How to add a new category
