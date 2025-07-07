@@ -116,6 +116,10 @@ Data viewers/Editors based on shapes.
 - [shacl-forms](https://github.com/zazuko/shacl-forms) (Zazuko) <img alt="NPM Version" src="https://img.shields.io/npm/v/shacl-forms" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/zazuko/shacl-forms" align="top"> - A Web Component SHACL form generator library; `unknown` license; `JavaScript` ☠️.
 - [form-generator](https://git.rwth-aachen.de/coscine/frontend/libraries/form-generator) (RWTH Aachen) <img alt="NPM Version" src="https://img.shields.io/npm/v/@coscine/form-generator" align="top"> - A Vue SHACL form generator library; `MIT` license; `Typescript`.
 - [shacl-form](https://github.com/danielbeeke/shacl-form) (Daniel Beeke) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/danielbeeke/shacl-form" align="top"> - A custom element SHACL form generator library; [docs](https://shacl-form.mediaworks.global/); `MIT` license; `Typescript` ☠️.
+- [DFDP: Declarative Form Description Pipeline](https://solidlabresearch.github.io/DFDP/) (SolidLabResearch) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/SolidLabResearch/FormGenerator/" align="top"; `MIT` license; `JavaScript`; Integrates with SOLID. [ESWC 2024 Paper]([url](https://smessie.github.io/Article-ESWC2024-DFDP/)).
+  - FormGenerator: generate a declarative form description by using a drag-and-drop interface. Targets SHACL, RDF-Form and Solid-UI
+  - FormRenderer: fill out a form by rendering its declarative form description as HTML in the browser.
+  - FormCli: fill out a form by rendering its declarative form description as text on the command line.
 
 ## IDE support
 
