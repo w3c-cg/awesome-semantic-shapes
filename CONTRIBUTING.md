@@ -45,23 +45,27 @@ Software item must conform to the following format:
 ```
 
 In each case:
-- The link
-  - Should be the name of the package or project
-  - Should point to a specific module related to the category (e.g., in the 'SHACL Validators' section, link to `https://github.com/apache/jena/tree/main/jena-shacl`, not `https://github.com/apache/jena`)
+- The link:
+  - Should be the name of the package or project.
+  - Should point to a specific module related to the category (e.g., in the 'SHACL Validators' section, link to `https://github.com/apache/jena/tree/main/jena-shacl`, not `https://github.com/apache/jena`).
 - Activity info
-  - Should consist of two badges
-    - The latest known stable version badge (from any most common binary repository or GH Releases)
-    - The recent repository activity badge
-  - Use `<img align="top">` badge format for better inline alignment
-  - Do not use any other badges (build status, dependencies, etc.)
-  - Additional emoji can be used to mark commercial 💰 or abandoned ☠️ software
+  - Should consist of two badges:
+    - The latest known stable version badge (from any most common binary repository or GH Releases).
+    - The recent repository activity badge (only one of these options): 
+      - "latest release date" (recommended) from any repository binary or GitHub Releases.
+      - if there is no published version, then "last commit date".
+  - Should not contain URL links.
+  - Use HTML `<img/>` badge format, not Markdown image (e.g., use `<img alt="Latest Version" src="https://img.shields.io/crates/v/rudof-cli" align="top">`, not `![Latest Version](https://img.shields.io/crates/v/rudof-cli.svg)`).
+  - Use `<img align="top">` badge format for better inline alignment.
+  - Do not use any other badges (build status, dependencies, etc.).
+  - Additional emoji can be used to mark commercial 💰 or abandoned ☠️ software.
 - Descriptions
-  - Should be clear, concise, and non-promotional
-  - Should begin with a capital letter
-  - May consist of several sentences
-  - Should be separated from the activity info with spaces and a hyphen ` - `
-  - Should contain license info and programming language at the end, formatted as ``` `text in code quotes` ```
-  - Should follow the link on the same line and end with a punctuation mark. Remember to put a period `.` at the end of the project description
+  - Should be clear, concise, and non-promotional.
+  - Should begin with a capital letter.
+  - May consist of several sentences.
+  - Should be separated from the activity info a hyphen preceded and followed by spaces, ` - `.
+  - Should contain license info and programming language at the end, formatted as ``` `text in code quotes` ```.
+  - Should follow the link on the same line and end with a punctuation mark. Remember to put a period `.` at the end of the project description.
 
 ### Examples
 
@@ -82,6 +86,29 @@ With a description:
 
 ```markdown
 - [Apache Jena SHACL](https://github.com/apache/jena/tree/main/jena-shacl) <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/org.apache.jena/jena-shacl" align="top"> <img alt="Maven Central Last Update" src="https://img.shields.io/maven-central/last-update/org.apache.jena/jena-shacl" align="top"> - Supports SHACL Core, SHACL-SPARQL; [docs](https://jena.apache.org/documentation/shacl/index.html); `Apache-2.0` license; `Java`.
+```
+
+### Ignoring some linter's errors
+
+Our list [awesome lint](https://github.com/sindresorhus/awesome-lint)
+
+In general it is better to comply with linter's rules. But in some cases it is acceptable to bypass it:
+- If you are adding reasonably the same URL link to several list's categories, you'll end up with duplication errors.
+- If you reasonably need more freedom in a description formatting, this will lead to formatting errors.
+
+In this cases it is possible to enable and/or disable some linter rules for the specific list item (line) with ```lint ignore``` (the recommended approach) or enable and/or disable the rules globally (not recommended) with ```lint disable``` and/or ```lint enable```.
+
+Just put the rule IDs after `lint ignore` and separate them with spaces.
+
+- double-link -- checks list item duplication
+- awesome-list-item -- checks list item formatting
+
+#### Examples
+
+```
+<!--lint ignore double-link-->
+<!--lint ignore awesome-list-item-->
+<!--lint ignore awesome-list-item double-link-->
 ```
 
 ## How to add a new category
