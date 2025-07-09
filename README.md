@@ -148,20 +148,23 @@ Data viewers/Editors based on shapes.
 
 ## Specifications
 
-- SHACL W3C Recommendations & Notes
+- SHACL 1.0 W3C Recommendations & Notes
   - [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) - W3C Recommendation, 20 July 2017.
   - [SHACL Advanced Features](https://www.w3.org/TR/shacl-af/) - W3C Working Group Note, 08 June 2017.
   - [SHACL JavaScript Extensions](https://www.w3.org/TR/shacl-js/) - W3C Working Group Note, 08 June 2017.
   - [SHACL Test Suite and Implementation Report](https://w3c.github.io/data-shapes/data-shapes-test-suite/) - W3C Document 01 July 2019.
   - [SHACL Use Cases and Requirements](https://www.w3.org/TR/shacl-ucr/) - W3C Working Group Note 20 July 2017.
-  - [Data Shapes Working Group](https://www.w3.org/2024/12/data-shapes.html) - Re-chartered from Dec 2024 to Dec 2026 to update the specs. [Join](https://www.w3.org/groups/wg/data-shapes/join)
 
-- SHACL Community Group Latest Drafts & Notes
+- SHACL Community Group Drafts & Notes
   - [SHACL 1.2 Core](https://w3c.github.io/shacl/shacl-core/)
   - [SHACL 1.2 SPARQL Extensions](https://w3c.github.io/shacl/shacl-sparql/)
   - [SHACL Advanced Features 1.1](https://w3c.github.io/shacl/shacl-af/)
   - [SHACL Compact Syntax](https://w3c.github.io/shacl/shacl-compact-syntax/)
   - [SHACL JavaScript Extensions](https://w3c.github.io/shacl/shacl-js/)
+
+- SHACL 1.2 [Working Group](https://www.w3.org/2024/12/data-shapes.html) editor drafts (Dec 2024 to Dec 2026 to update the specs; [Join](https://www.w3.org/groups/wg/data-shapes/join))
+  - [SHACL 1.2 Core](https://www.w3.org/TR/shacl12-core/)
+  - [SHACL 1.2 SPARQL Extensions](https://www.w3.org/TR/shacl12-sparql/)
 
 - SHACL-related specifications
   - [The Shape Topologies algorithm](https://treecg.github.io/specification/shape-topologies)
