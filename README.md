@@ -68,7 +68,7 @@ Software tools or libraries, sorted by programming language.
 - [RDFminer](https://github.com/Wimmics/RDFminer) - Discover SHACL shapes representative of an RDF data graph, by Wimmics; `CECILL-C` license; `Java`.
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
-- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on GitHub](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
+- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
 - [schema.org Shapes](http://datashapes.org/schema) - Schema.org, converted to SHACL by TopQuadrant.
 - [Europarl Shapes](https://data.europarl.europa.eu/en/developer-corner) - Application profiles for European Parliament & all related dataset-specific profiles.
 
@@ -89,6 +89,7 @@ Also see [Polyglot Modeling](https://github.com/json-ld/yaml-ld/issues/19) tools
 - TNO [Semantic Treehouse](https://www.semantic-treehouse.nl/) - Has [SHACL input](https://www.semantic-treehouse.nl/docs/wizard/shacl-input) and [output](https://www.semantic-treehouse.nl/docs/wizard/shacl-output). Used as a Vocabulary Hub in dataspaces.
 - [TopQuadrant: OWL Axioms to SHACL Constraints](https://www.topquadrant.com/doc/latest/reference/Transform_ConvertOWLAxiomsToSHACLConstraints.html) - Commercial, closed-source solution 💰.
 - [Ontotext SOML](https://platform.ontotext.com/semantic-objects/soml/) - Input is YAML, output is GraphQL schema with querying and mutations, SHACL shapes for validation. Commercial, closed-source 💰.
+- [sheXer](https://github.com/weso/shexer/) - Library to extract ShEx/SHACL shapes from RDF data, SPARQL endpoints, or rdflib graphs. It offers iterative parsing and/or sampling to deal with big datasets; `Apache` License; `Python`.
 
 ## Shape-based Query Generators
 
