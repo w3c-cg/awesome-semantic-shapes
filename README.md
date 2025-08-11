@@ -149,6 +149,8 @@ Data viewers/Editors based on shapes.
 ## Specifications
 
 - SHACL 1.0 W3C Recommendations & Notes
+- SHACL W3C Recommendations & Notes
+  - [Data Shapes Working Group](https://www.w3.org/2024/12/data-shapes.html) - Re-chartered from Dec 2024 to Dec 2026 to update the specs. [Join](https://www.w3.org/groups/wg/data-shapes/join)
   - [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) - W3C Recommendation, 20 July 2017.
   - [SHACL Advanced Features](https://www.w3.org/TR/shacl-af/) - W3C Working Group Note, 08 June 2017.
   - [SHACL JavaScript Extensions](https://www.w3.org/TR/shacl-js/) - W3C Working Group Note, 08 June 2017.
@@ -171,6 +173,7 @@ Data viewers/Editors based on shapes.
   - [DASH Data Shapes](https://www.datashapes.org/) - Platform-independent extensions of SHACL for common tasks. Stuff that could become an official standard in the future.
 
 - ShEx
+  - [ShEx Community Group](https://www.w3.org/groups/cg/shex/) - [blog](https://www.w3.org/community/shex/) (active 2017-2019), [mlist](https://lists.w3.org/Archives/Public/public-shex/) (2017-2023), [resources/tools](https://www.w3.org/groups/cg/shex/tools/).
   - [Shape Expressions Language 2.1](https://shex.io/shex-semantics/index.html) - Final Community Group Report, 8 October 2019.
   - [ShEx Primer](https://shexspec.github.io/primer/index.html) - Draft Community Group Report, 7 December 2022.
   - [ShEx Text Suite](https://github.com/shexSpec/shexTest) and [website](https://shexspec.github.io/shexTest/) - Version `next@1.0.2`, last release 5 October 2018.
