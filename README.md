@@ -45,8 +45,10 @@ Software tools or libraries, sorted by programming language.
 - [maplib](https://github.com/DataTreehouse/maplib) <img src="https://img.shields.io/github/v/tag/DataTreehouse/maplib" align="top"> <img src="https://img.shields.io/github/last-commit/DataTreehouse/maplib" align="top"> - High-performance RDF knowledge graph construction, SHACL validation and SPARQL-based enrichment. `Apache-2.0` license. `Rust` with `Python` bindings. But SHACL is not open source: [lib/shacl/src/lib.rs](https://github.com/DataTreehouse/maplib/blob/main/lib/shacl/src/lib.rs) says `unimplemented!("Contact Data Treehouse to try")` 💰.
 <!--lint ignore double-link-->
 - [rudof](https://github.com/rudof-project/rudof) <img alt="Latest Version" src="https://img.shields.io/crates/v/rudof-cli" align="top"> <img alt="Release Date" src="https://img.shields.io/github/release-date/rudof-project/rudof" align="top"> - Implements ShEx, SHACL, [DCTAP](https://www.dublincore.org/specifications/dctap/), and other technologies in the RDF ecosystem; library and CLI; `Apache` and `MIT` licenses; `Rust` with `Python` bindings. [docs](https://rudof-project.github.io/rudof/cli_usage/shacl_validate.html).
+<!--lint ignore awesome-list-item-->
 - [pySHACL](https://github.com/rdflib/pyshacl) <img alt="Release Date" src="https://img.shields.io/github/release-date/rdflib/pyshacl" align="top"> - pySHACL: A Python validator for SHACL. One of the most comprehensive SHACL implementations. Uses [RDFLib](https://github.com/rdflib/rdflib) for working with RDF and [OWL-RL library](https://github.com/rdflib/owl-rl) for OWL2 RL Profile-based expansion of data graphs; `Apache` license; `Python`.
 - [Trav-SHACL](https://github.com/SDM-TIB/Trav-SHACL) <img alt="Release Date" src="https://img.shields.io/github/release-date/SDM-TIB/Trav-SHACL" align="top"> <img alt="PyPi" src="https://img.shields.io/pypi/v/TravSHACL" align="top"> ([docs](https://sdm-tib.github.io/Trav-SHACL/)) - SHACL validator capable of planning the traversal and execution of the validation of a shape schema to detect violations early. Efficiently validates networks of SHACL constraints. `GPLv3` license. `Python`
+<!--lint ignore awesome-list-item-->
 - [xpshacl](https://github.com/gcpdev/xpshacl) <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gcpdev/xpshacl" align="top"> - xpSHACL: Explainable SHACL Validation. Combining rule-based justification trees with retrieval-augmented generation (RAG) and large language models (LLMs) to produce detailed, understandable, multi-language explanations. `MIT` license. `Python`
 
 ## ShEx Validators
@@ -67,7 +69,7 @@ Software tools or libraries, sorted by programming language.
 
 - [SHACL Discovery Service](https://github.com/AKSW/discover-shacl-shapes) - Discovery service for SHACL shapes/shape groups; `MIT` license; `PHP`.
 - [Shapes of You index](https://index.semanticscience.org/) - SPARQL queries, OWL/SKOS vocabularies, SHACL/ShEx shapes, indexed from public `git` repositories; `MIT` license; `Typescript`, `Python`.
-- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on Github](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
+- [SHACL Play! Catalog](https://shacl-play.sparna.fr/play/shapes-catalog) - To see your shapes listed here, add them in the [Shapes Catalog source file on GitHub](https://github.com/sparna-git/SHACL-Catalog/blob/master/shacl-catalog.ttl).
 - [schema.org Shapes](http://datashapes.org/schema) - Schema.org, converted to SHACL by TopQuadrant.
 - [Europarl Shapes](https://data.europarl.europa.eu/en/developer-corner) - Application profiles for European Parliament & all related dataset-specific profiles.
 
@@ -116,6 +118,7 @@ Data viewers/Editors based on shapes.
   - [playground](https://ulb-darmstadt.github.io/shacl-form/)
 - [shacl-forms](https://github.com/zazuko/shacl-forms) (Zazuko) <img alt="NPM Version" src="https://img.shields.io/npm/v/shacl-forms" align="top"> <img alt="GitHub Release Date" src="https://img.shields.io/github/last-commit/zazuko/shacl-forms" align="top"> - A Web Component SHACL form generator library; `unknown` license; `JavaScript` ☠️.
 - [form-generator](https://git.rwth-aachen.de/coscine/frontend/libraries/form-generator) (RWTH Aachen) <img alt="NPM Version" src="https://img.shields.io/npm/v/@coscine/form-generator" align="top"> - A Vue SHACL form generator library; `MIT` license; `Typescript`.
+<!--lint ignore awesome-list-item-->
 - [shacl-form](https://github.com/danielbeeke/shacl-form) (Daniel Beeke) <img alt="GitHub Release Date" src="https://img.shields.io/github/last-commit/danielbeeke/shacl-form" align="top"> - A custom element SHACL form generator library; [docs](https://shacl-form.mediaworks.global/); `MIT` license; `Typescript`.
 - [DFDP: Declarative Form Description Pipeline](https://solidlabresearch.github.io/DFDP/) (SolidLabResearch) <img alt="GitHub Release Date" src="https://img.shields.io/github/last-commit/SolidLabResearch/FormGenerator" align="top">; `MIT` license; `JavaScript`; Integrates with SOLID. [ESWC 2024 Paper]([url](https://smessie.github.io/Article-ESWC2024-DFDP/)).
   - FormGenerator: generate a declarative form description by using a drag-and-drop interface. Targets SHACL, RDF-Form and Solid-UI
@@ -150,6 +153,7 @@ Data viewers/Editors based on shapes.
 
 - SHACL 1.0 W3C Recommendations & Notes
 - SHACL W3C Recommendations & Notes
+  <!--lint ignore double-link-->
   - [Data Shapes Working Group](https://www.w3.org/2024/12/data-shapes.html) - Re-chartered from Dec 2024 to Dec 2026 to update the specs. [Join](https://www.w3.org/groups/wg/data-shapes/join)
   - [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) - W3C Recommendation, 20 July 2017.
   - [SHACL Advanced Features](https://www.w3.org/TR/shacl-af/) - W3C Working Group Note, 08 June 2017.
@@ -164,6 +168,7 @@ Data viewers/Editors based on shapes.
   - [SHACL Compact Syntax](https://w3c.github.io/shacl/shacl-compact-syntax/)
   - [SHACL JavaScript Extensions](https://w3c.github.io/shacl/shacl-js/)
 
+<!--lint ignore double-link-->
 - SHACL 1.2 [Working Group](https://www.w3.org/2024/12/data-shapes.html) editor drafts (Dec 2024 to Dec 2026 to update the specs; [Join](https://www.w3.org/groups/wg/data-shapes/join))
   - [SHACL 1.2 Core](https://www.w3.org/TR/shacl12-core/)
   - [SHACL 1.2 SPARQL Extensions](https://www.w3.org/TR/shacl12-sparql/)
