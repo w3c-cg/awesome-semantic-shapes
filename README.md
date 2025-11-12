@@ -132,6 +132,7 @@ Data viewers/Editors based on shapes.
 
 ## Books
 
+- [SHACL for the Practitioner (2025)](https://veronahe.wordpress.com/shacl-for-the-practitioner/) - Exploring knowledge graphs through the Shapes Constraint Language.
 - [Validating RDF Data (2018)](https://book.validatingrdf.com) - The SHACL and ShEx book.
 
 ## Tutorials
