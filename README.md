@@ -145,6 +145,7 @@ Data viewers/Editors based on shapes.
 
 ## Talks and Presentations
 
+- [SHACL Masterclass by Veronika Heimsbakk](https://github.com/veleda/shacl-masterclass) - Knowledge Graph Conference 2021, 2022, 2023. Connected Data London, 2024.
 - [The Many Shapes of SHACL by Holger Knublauch](https://www.youtube.com/watch?v=ccs-KhnWR1U) - LOTICO Talk, 18 Jun 2020.
 - [One Ontology, One Data Set, Multiple Shapes with SHACL by Tara Raafat](https://www.youtube.com/watch?v=apG5K3zc4V0) - Connected Data London, 2019.
 - [An Overview of SHACL Shapes Constraint Language: Part 2](https://www.youtube.com/watch?v=TSDplfqw8rM) - TopQuadrant, 2017.
